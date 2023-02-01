@@ -34,10 +34,9 @@ end
 
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
-	local actor = e.info.actor
+	local info = e.info
+	local actor = info.actor
 	if actor then
-		local info = e.info
-
 		local npc = info.actor.reference.object
 		local race = npc.race.id:lower()
 		local sex = getActorSex(npc.female)
@@ -52,7 +51,6 @@ local function onInfoGetText(e)
 		end
 	end
 end
-
 
 ---
 local function init()
