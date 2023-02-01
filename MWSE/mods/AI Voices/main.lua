@@ -41,11 +41,11 @@ local function onInfoGetText(e)
 		local race = npc.race.id:lower()
 		local sex = getActorSex(npc.female)
 
-		e.text = e:loadOriginalText()
-		local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
-		local hash = string.upper(sha.md5(ctxt))
+		--e.text = e:loadOriginalText()
+		--local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
+		--local hash = string.upper(sha.md5(ctxt))
 
-		local path = getPath(race, sex, hash)
+		local path = getPath(race, sex, info.id)
 		if isPathValid(path) then
 			playText(path, npc)
 		end
