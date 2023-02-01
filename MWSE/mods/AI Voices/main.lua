@@ -1,5 +1,6 @@
 local menuActive
 local npc
+local sha = require("sha2")
 
 --- @param path string
 local function playText(path)
@@ -43,11 +44,13 @@ local function onInfoGetText(e)
 	local info = e.info
 
 	-- Leave it for later use
-	-- e.text = e:loadOriginalText()
+	e.text = e:loadOriginalText()
+	local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
+	local hash = string.upper(sha.md5(ctxt))
 	-- debug.log(info.id)
 	-- debug.log(e.text)
 
-	local path = getPath(race, sex, info.id)
+	local path = getPath(race, sex, hash)
 	if isPathValid(path) then
 		playText(path)
 	end
