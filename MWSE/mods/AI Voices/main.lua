@@ -32,47 +32,32 @@ local function isPathValid(path)
 	return lfs.fileexists("Data Files\\Sound\\" .. path)
 end
 
+
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
-
-	if not menuActive then return end
-	if not npc then return end
-
-	local race = npc.race.id:lower()
-	local sex = getActorSex(npc.female)
-	local info = e.info
-
-	-- Leave it for later use
-	-- e.text = e:loadOriginalText()
-	-- debug.log(info.id)
-	-- debug.log(e.text)
-
-	local path = getPath(race, sex, info.id)
-	if isPathValid(path) then
-		playText(path)
-	end
-end
-
----
-local function onDialogueMenuEnter()
-	local actor = tes3ui.getServiceActor()
+	local actor = e.info.actor
 	if actor then
-		npc = actor.object
+		npc = e.info.actor.reference.object
+
+		local race = npc.race.id:lower()
+		local sex = getActorSex(npc.female)
+
+		local info = e.info
+
+		e.text = e:loadOriginalText()
+
+		local path = getPath(race, sex, info.id)
+		if isPathValid(path) then
+			playText(path)
+		end
 	end
-	menuActive = true
 end
 
-local function onDialogueMenuExit()
-	menuActive = false
-	npc = nil
-end
 
 ---
 local function init()
 	debug.log("AI Voices loaded.")
 	event.register(tes3.event.infoGetText, onInfoGetText)
-	event.register(tes3.event.menuEnter, onDialogueMenuEnter, {filter = "MenuDialog"})
-	event.register(tes3.event.menuExit, onDialogueMenuExit, {filter = "MenuDialog"})
 end
 
 event.register(tes3.event.initialized, init)
