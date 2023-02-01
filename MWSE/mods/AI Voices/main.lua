@@ -6,7 +6,7 @@ local function playText(path)
 	local ref = npc.reference
 	tes3.removeSound { reference = ref }
 	tes3.say {
-		volume = 0.9,
+		volume = 1.0,
 		soundPath = path,
 		reference = ref
 	}
