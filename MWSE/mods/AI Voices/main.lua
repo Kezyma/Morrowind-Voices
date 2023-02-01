@@ -1,9 +1,7 @@
-local menuActive
-local npc
 local sha = require("sha2")
 
 --- @param path string
-local function playText(path)
+local function playText(path, npc)
 	local ref = npc.reference
 	tes3.removeSound { reference = ref }
 	tes3.say {
@@ -33,49 +31,33 @@ local function isPathValid(path)
 	return lfs.fileexists("Data Files\\Sound\\" .. path)
 end
 
+
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
-
-	if not menuActive then return end
-	if not npc then return end
-
-	local race = npc.race.id:lower()
-	local sex = getActorSex(npc.female)
-	local info = e.info
-
-	-- Leave it for later use
-	e.text = e:loadOriginalText()
-	local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
-	local hash = string.upper(sha.md5(ctxt))
-	-- debug.log(info.id)
-	-- debug.log(e.text)
-
-	local path = getPath(race, sex, hash)
-	if isPathValid(path) then
-		playText(path)
-	end
-end
-
----
-local function onDialogueMenuEnter()
-	local actor = tes3ui.getServiceActor()
+	local actor = e.info.actor
 	if actor then
-		npc = actor.object
+		local info = e.info
+
+		local npc = info.actor.reference.object
+		local race = npc.race.id:lower()
+		local sex = getActorSex(npc.female)
+
+		e.text = e:loadOriginalText()
+		local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
+		local hash = string.upper(sha.md5(ctxt))
+
+		local path = getPath(race, sex, hash)
+		if isPathValid(path) then
+			playText(path, npc)
+		end
 	end
-	menuActive = true
 end
 
-local function onDialogueMenuExit()
-	menuActive = false
-	npc = nil
-end
 
 ---
 local function init()
 	debug.log("AI Voices loaded.")
 	event.register(tes3.event.infoGetText, onInfoGetText)
-	event.register(tes3.event.menuEnter, onDialogueMenuEnter, {filter = "MenuDialog"})
-	event.register(tes3.event.menuExit, onDialogueMenuExit, {filter = "MenuDialog"})
 end
 
 event.register(tes3.event.initialized, init)
