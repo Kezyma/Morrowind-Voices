@@ -1,4 +1,4 @@
-local sha = require("sha2")
+-- local sha = require("sha2")
 
 --- @param path string
 local function playText(path, npc)
@@ -19,6 +19,12 @@ local function getPath(race, sex, infoId)
 	return string.format("Vo\\AIV\\%s\\%s\\%s.mp3", race, sex, infoId)
 end
 
+--- @param infoId string
+--- @return string
+local function getCreaturePath(infoId)
+	return string.format("Vo\\AIV\\creature\\%s.mp3", infoId)
+end
+
 --- @param isFemale boolean
 --- @return string
 local function getActorSex(isFemale)
@@ -37,15 +43,21 @@ local function onInfoGetText(e)
 	local info = e.info
 	local actor = info.actor
 	if actor then
+
+		local path = getCreaturePath(info.id)
 		local npc = info.actor.reference.object
-		local race = npc.race.id:lower()
-		local sex = getActorSex(npc.female)
 
-		--e.text = e:loadOriginalText()
-		--local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
-		--local hash = string.upper(sha.md5(ctxt))
+		if actor.objectType == tes3.objectType.npc then
+			local race = npc.race.id:lower()
+			local sex = getActorSex(npc.female)
 
-		local path = getPath(race, sex, info.id)
+			--e.text = e:loadOriginalText()
+			--local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
+			--local hash = string.upper(sha.md5(ctxt))
+
+			path = getPath(race, sex, info.id)
+			end
+			
 		if isPathValid(path) then
 			playText(path, npc)
 		end
