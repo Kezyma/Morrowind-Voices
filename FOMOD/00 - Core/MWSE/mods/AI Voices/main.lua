@@ -2,6 +2,18 @@
 local metadata = require("AI Voices.metadata")
 local version = metadata.version
 
+
+--- @param e uiActivatedEventData
+local function onDialogActivated(e)
+	local ref = tes3ui.getServiceActor().object.reference
+	e.element:registerAfter(
+		tes3.uiEvent.destroy,
+		function()
+			tes3.removeSound { reference = ref }
+		end
+	)
+end
+
 --- @param path string
 local function playText(path, npc)
 	local ref = npc.reference
@@ -70,6 +82,7 @@ end
 local function init()
 	mwse.log(string.format("AI Voices v%s loaded.", version))
 	event.register(tes3.event.infoGetText, onInfoGetText)
+	event.register(tes3.event["uiActivated"], onDialogActivated, {filter = "MenuDialog"})
 end
 
 event.register(tes3.event.initialized, init)
