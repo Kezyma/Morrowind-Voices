@@ -1,4 +1,6 @@
 -- local sha = require("sha2")
+local metadata = require("AI Voices.metadata")
+local version = metadata.version
 
 --- @param path string
 local function playText(path, npc)
@@ -57,7 +59,7 @@ local function onInfoGetText(e)
 
 			path = getPath(race, sex, info.id)
 			end
-			
+
 		if isPathValid(path) then
 			playText(path, npc)
 		end
@@ -66,7 +68,7 @@ end
 
 ---
 local function init()
-	debug.log("AI Voices loaded.")
+	mwse.log(string.format("AI Voices v%s loaded.", version))
 	event.register(tes3.event.infoGetText, onInfoGetText)
 end
 
