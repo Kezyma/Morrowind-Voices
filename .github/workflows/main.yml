@@ -18,7 +18,7 @@ jobs:
       - name: Build Archive
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a ${{env.ARCHIVE_NAME}}.7z .\FOMOD\*
+          args: 7z a ${{env.ARCHIVE_NAME}}.7z "FOMOD/*"
 
       - name: Create Release
         uses: notlmn/release-with-changelog@v3
