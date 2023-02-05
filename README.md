@@ -7,7 +7,7 @@ Available on NexusMods: https://www.nexusmods.com/morrowind/mods/52279
 ## Adding New Dialogue
 
 You can use the LineExtractor tool in this repo to extract dialogue from an esp/esm, which uses the tool from this repo: https://github.com/Greatness7/tes3conv
-
+The LineExtractor requires the .Net 7 Runtime: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 - Clone this repository.
 - Inside the LineExtractor folder, create a folder called 'Esps'
 - Place the esp/esm files you wish to extract dialogue from in the folder.
