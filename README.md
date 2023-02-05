@@ -6,16 +6,20 @@ Available on NexusMods: https://www.nexusmods.com/morrowind/mods/52279
 
 ## Adding New Dialogue
 
-You can use the LineExtractor tool in this repo to extract dialogue from an esp/esm, which uses the tool from this repo: https://github.com/Greatness7/tes3conv
+### Extracting Dialogue
+To extract dialogue, you can use the LineExtractor tool located in this repository. The tool uses Greatness7's tes3conv (https://github.com/Greatness7/tes3conv) to extract data from esm/esp files and then exports the dialogue, speaker and info_id to csv files for easy reading.
 
-The LineExtractor requires the .Net 7 Runtime: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+Requires .Net 7 Runtime: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 
-- Clone this repository.
-- Inside the LineExtractor folder, create a folder called 'Esps'
-- Place the esp/esm files you wish to extract dialogue from in the folder.
-- If the NPC that the dialogue is for comes from another esp/esm, you must also add that too. eg. Patch for Purists edits dialogue from Morrowind.esm, so Morrowind.esm must also be added to the folder.
-- Run Kezyma.MorrowindLineExtractor.exe
-- A Csvs folder will be created, containing a separate csv file with the dialogue from each esp/esm you included.
+- Download `Kezyma.MorrowindLineExtractor.exe` from the LineExtractor folder in this repository.
+- Run `Kezyma.MorrowindLineExtractor.exe` once to generate required folders.
+- Place esp/esm files into the `Esp` folder. You must include both the esp/esm containing the dialogue you wish to extract as well as all dependencies, otherwise speaker information is not available.
+- Run `Kezyma.MorrowindLineExtractor.exe` a second time.
+- The `Csv` folder will contain csv files for each esp/esm containing all the dialogue and relevant information.
+
+The InfoId column contains a prefix of `id_` which must be removed when naming files later. This is added so that the files can be opened in Excel without the column being formatted and producing the wrong InfoId.
+
+### Adding Dialogue
 
 To add dialogue, once you have generated the audio, it must be placed in the following path inside `Data Files`
 
