@@ -76,7 +76,7 @@ local function onInfoGetText(e)
 			--local hash = string.upper(sha.md5(ctxt))
 
 			path = getPath(race, sex, info.id)
-			end
+		end
 
 		if isPathValid(path) then
 			playText(path, npc)
