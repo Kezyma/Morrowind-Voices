@@ -2,6 +2,8 @@
 local metadata = require("AI Voices.metadata")
 local version = metadata.version
 
+local config = require("AI Voices.config")
+
 
 --- @param e uiActivatedEventData
 local function onDialogActivated(e)
@@ -55,7 +57,11 @@ end
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
 	local info = e.info
+
+	if (config.greetingsOnly) and not (info.type == tes3.dialogueType.greeting) then return end
+
 	local actor = info.actor
+
 	if actor then
 
 		local path = getCreaturePath(info.id)
@@ -86,3 +92,8 @@ local function init()
 end
 
 event.register(tes3.event.initialized, init)
+
+-- Registers MCM menu --
+event.register(tes3.event.modConfigReady, function()
+    dofile("Data Files\\MWSE\\mods\\Ai Voices\\mcm.lua")
+end)
