@@ -12835,56 +12835,56 @@ the dream is the door and the star is the key"
 ,id_24463198842591620919,ygfa,Ygfa,Nord,Female,Imperial Cult,Topic,"You are now a %NextPCRank in the Imperial Cult. Welcome, %PCName, to our community, and may your rejoice in its blessings. Can I tell you about our services? Or, if you can donate more time and effort, would you like to become a lay servant?"
 ,id_27080241158521748,ygfa,Ygfa,Nord,Female,Imperial Cult,Topic,"You can find Imperial cult services in Fort Buckmoth, Fort Moonmoth, Fort Pelagiad, Fort Darius, Wolverine Hall in Sadrith Mora, Vivec Foreign Quarter, and Imperial chapels in Ebonheart. Seek training at Wolverine Hall, Fort Buckmoth, Fort Moonmoth, Ebonheart Imperial Chapels, Governor's Hall in Caldera, and Ald Velothi Outpost. Many Imperial cult locations have healing altars."
 ,id_32641222512551220839,ygfa,Ygfa,Nord,Female,Imperial Cult,Topic,"You may pray at Imperial cult healing altars and receive blessings which cure common and blight diseases, cure poisons, and restore attributes. Non-members pay 25 drakes. Newer members pay 10 drakes, while higher-ranking members receive blessings free. Healing altars are found in: Vivec Foreign Quarter; Wolverine Hall in Sadrith Mora; Fort Buckmoth; Fort Moonmoth; Fort Pelagiad; Fort Darius; Ald'ruhn Guild of Mages, and Imperial Chapels in Ebonheart."
-,id_3824301342951321345,aenar,Aenar,Nord,Male,,Greeting,"Begone, stranger."
-,id_1240378292978419696,aenar,Aenar,Nord,Male,,Greeting,"Have you come for Stalhrim armor, friend?"
-,id_15854282391044831494,aenar,Aenar,Nord,Male,,Topic,Here are your boots. They should fit you quite well; take good care of them.
-,id_924575402255728957,aenar,Aenar,Nord,Male,,Topic,Here are your greaves. They should fit you quite well; take good care of them.
-,id_29311300532962426992,aenar,Aenar,Nord,Male,,Topic,Here's your cuirass. It should fit you quite well; take good care of it.
-,id_2129022361281342216,aenar,Aenar,Nord,Male,,Topic,Here's your helmet. It should fit you quite well; take good care of it.
-,id_1813621118289433152,aenar,Aenar,Nord,Male,,Topic,Here's your left gauntlet. It should fit you quite well; take good care of it.
-,id_22377975065332495,aenar,Aenar,Nord,Male,,Topic,Here's your left pauldron. It should fit you quite well; take good care of it.
-,id_2064831729274292250,aenar,Aenar,Nord,Male,,Topic,Here's your right gauntlet. It should fit you quite well; take good care of it.
-,id_26831132803020919954,aenar,Aenar,Nord,Male,,Topic,Here's your right pauldron. It should fit you quite well; take good care of it.
-,id_775626314531412084,aenar,Aenar,Nord,Male,,Topic,"I can craft any piece of armor, provided you have the raw materials. What do you need?"
-,id_9022315502866916063,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your boots aren't ready yet. They're going to take a little more time."
-,id_2670666472386515164,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your cuirass isn't ready yet. It's going to take a little more time."
-,id_63438843822910190,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your greaves aren't ready yet. They're going to take a little more time."
-,id_999015432179526631,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your helmet isn't ready yet. It's going to take a little more time."
-,id_143683830111773761,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your left gauntlet isn't ready yet. It's going to take a little more time."
-,id_27205227392285924137,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your left pauldron isn't ready yet. It's going to take a little more time."
-,id_17443174483012332348,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your right gauntlet isn't ready yet. It's going to take a little more time."
-,id_2428929627740527694,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your right pauldron isn't ready yet. It's going to take a little more time."
-,id_1536517000274814875,aenar,Aenar,Nord,Male,,Topic,"It is sacred, but it is useful. It can be made to craft Stalhrim armor, if one has the tools and knows the proper techniques."
-,id_17088124251941714401,aenar,Aenar,Nord,Male,,Topic,So be it. I shall be here if you change your mind.
-,id_2200799951842721480,aenar,Aenar,Nord,Male,,Greeting,Speak to Graring.
-,id_9766301701128124175,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_197176759725119863,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_190728251872114004,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_28365309482984410732,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_26212170721798626081,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_312191161952730475,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
-,id_149532551306801861,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on them. Come back in two days, and they will be ready."
-,id_1672416695910922086,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on them. Come back in two days, and they will be ready."
-,id_176557629245573557,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a cuirass for you.
-,id_23496296792142525823,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a helmet for you.
-,id_237054672547513691,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a left gauntlet for you.
-,id_2833622742483227557,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a left pauldron for you.
-,id_8922595723132707,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a right gauntlet for you.
-,id_88783231471706973,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a right pauldron for you.
-,id_113424862864214559,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make boots for you.
-,id_19527186483021511147,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make greaves for you.
-,id_3182146312256410879,Agning,Agning,Nord,Male,,Greeting,"Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help."
-,id_192282096022469536,Agning,Agning,Nord,Male,,Topic,"Have you heard of the Chrysamere? It's a sword of legend, and held by the Legion in Ebonheart."
-,id_2544719292807727390,Alfbrand,Alfbrand,Nord,Male,,Greeting,"Hand over the equipment yeh've got for me. Hurry up, now."
-,id_14802639329022405,Alfbrand,Alfbrand,Nord,Male,,Topic,"Oh, enough with the talkin'. Just give me this and go away."
-,id_1481946691838825988,Alfbrand,Alfbrand,Nord,Male,,Greeting,"Talk to Toralf, not me."
-,id_192672818536398461,Alfbrand,Alfbrand,Nord,Male,,Greeting,What? I ain't yer pal. Scram.
-,id_272481931526498471,Alfbrand,Alfbrand,Nord,Male,,Topic,Yeh already gave it to me. Get lost.
-,id_1583011526803524915,Alfbrand,Alfbrand,Nord,Male,,Topic,Yeh don't have it? Well then what're yeh standin' around talkin' for? Come back when yeh've got the bear armor and the war axe I been promised.
-,id_3467103442336523181,allding,Allding,Nord,Male,Thieves Guild,Topic,Sorry. I can't help you.
-,id_23947167542883012393,allding,Allding,Nord,Male,Thieves Guild,Topic,"Yeah, that was me. I didn't know Gentleman Jim was such a big fan of Dunmer poetry. He chewed me out for an hour and even recited some of Salyn Sarethi's poems. I won't make THAT mistake again."
+1,id_3824301342951321345,aenar,Aenar,Nord,Male,,Greeting,"Begone, stranger."
+1,id_1240378292978419696,aenar,Aenar,Nord,Male,,Greeting,"Have you come for Stalhrim armor, friend?"
+1,id_15854282391044831494,aenar,Aenar,Nord,Male,,Topic,Here are your boots. They should fit you quite well; take good care of them.
+1,id_924575402255728957,aenar,Aenar,Nord,Male,,Topic,Here are your greaves. They should fit you quite well; take good care of them.
+1,id_29311300532962426992,aenar,Aenar,Nord,Male,,Topic,Here's your cuirass. It should fit you quite well; take good care of it.
+1,id_2129022361281342216,aenar,Aenar,Nord,Male,,Topic,Here's your helmet. It should fit you quite well; take good care of it.
+1,id_1813621118289433152,aenar,Aenar,Nord,Male,,Topic,Here's your left gauntlet. It should fit you quite well; take good care of it.
+1,id_22377975065332495,aenar,Aenar,Nord,Male,,Topic,Here's your left pauldron. It should fit you quite well; take good care of it.
+1,id_2064831729274292250,aenar,Aenar,Nord,Male,,Topic,Here's your right gauntlet. It should fit you quite well; take good care of it.
+1,id_26831132803020919954,aenar,Aenar,Nord,Male,,Topic,Here's your right pauldron. It should fit you quite well; take good care of it.
+1,id_775626314531412084,aenar,Aenar,Nord,Male,,Topic,"I can craft any piece of armor, provided you have the raw materials. What do you need?"
+1,id_9022315502866916063,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your boots aren't ready yet. They're going to take a little more time."
+1,id_2670666472386515164,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your cuirass isn't ready yet. It's going to take a little more time."
+1,id_63438843822910190,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your greaves aren't ready yet. They're going to take a little more time."
+1,id_999015432179526631,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your helmet isn't ready yet. It's going to take a little more time."
+1,id_143683830111773761,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your left gauntlet isn't ready yet. It's going to take a little more time."
+1,id_27205227392285924137,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your left pauldron isn't ready yet. It's going to take a little more time."
+1,id_17443174483012332348,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your right gauntlet isn't ready yet. It's going to take a little more time."
+1,id_2428929627740527694,aenar,Aenar,Nord,Male,,Topic,"I'm sorry, but your right pauldron isn't ready yet. It's going to take a little more time."
+1,id_1536517000274814875,aenar,Aenar,Nord,Male,,Topic,"It is sacred, but it is useful. It can be made to craft Stalhrim armor, if one has the tools and knows the proper techniques."
+1,id_17088124251941714401,aenar,Aenar,Nord,Male,,Topic,So be it. I shall be here if you change your mind.
+1,id_2200799951842721480,aenar,Aenar,Nord,Male,,Greeting,Speak to Graring.
+1,id_9766301701128124175,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_197176759725119863,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_190728251872114004,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_28365309482984410732,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_26212170721798626081,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_312191161952730475,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on it. Come back in two days, and it will be ready."
+1,id_149532551306801861,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on them. Come back in two days, and they will be ready."
+1,id_1672416695910922086,aenar,Aenar,Nord,Male,,Topic,"Very well. I shall start work on them. Come back in two days, and they will be ready."
+1,id_176557629245573557,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a cuirass for you.
+1,id_23496296792142525823,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a helmet for you.
+1,id_237054672547513691,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a left gauntlet for you.
+1,id_2833622742483227557,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a left pauldron for you.
+1,id_8922595723132707,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a right gauntlet for you.
+1,id_88783231471706973,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make a right pauldron for you.
+1,id_113424862864214559,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make boots for you.
+1,id_19527186483021511147,aenar,Aenar,Nord,Male,,Topic,You have no raw Stalhrim. I cannot make greaves for you.
+1,id_3182146312256410879,Agning,Agning,Nord,Male,,Greeting,"Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help."
+1,id_192282096022469536,Agning,Agning,Nord,Male,,Topic,"Have you heard of the Chrysamere? It's a sword of legend, and held by the Legion in Ebonheart."
+1,id_2544719292807727390,Alfbrand,Alfbrand,Nord,Male,,Greeting,"Hand over the equipment yeh've got for me. Hurry up, now."
+1,id_14802639329022405,Alfbrand,Alfbrand,Nord,Male,,Topic,"Oh, enough with the talkin'. Just give me this and go away."
+1,id_1481946691838825988,Alfbrand,Alfbrand,Nord,Male,,Greeting,"Talk to Toralf, not me."
+1,id_192672818536398461,Alfbrand,Alfbrand,Nord,Male,,Greeting,What? I ain't yer pal. Scram.
+1,id_272481931526498471,Alfbrand,Alfbrand,Nord,Male,,Topic,Yeh already gave it to me. Get lost.
+1,id_1583011526803524915,Alfbrand,Alfbrand,Nord,Male,,Topic,Yeh don't have it? Well then what're yeh standin' around talkin' for? Come back when yeh've got the bear armor and the war axe I been promised.
+1,id_3467103442336523181,allding,Allding,Nord,Male,Thieves Guild,Topic,Sorry. I can't help you.
+1,id_23947167542883012393,allding,Allding,Nord,Male,Thieves Guild,Topic,"Yeah, that was me. I didn't know Gentleman Jim was such a big fan of Dunmer poetry. He chewed me out for an hour and even recited some of Salyn Sarethi's poems. I won't make THAT mistake again."
 ,id_5057204923192519674,alof the easterner,Alof the Easterner,Nord,Male,,Topic,"I'm glad you got rid of those Orcs, %PCName. You better report back to Eydis Fire-Eye before she decides to keep the contract money for herself."
-,id_1092511116141117629,alof the easterner,Alof the Easterner,Nord,Male,,Topic,"The Orcs come from what the local Dunmer call Ashunartes. It's a Daedric ruin northeast of here and just west of an old Dunmer stronghold. I heard these Orcs are led by the Barbarian Burub gra-Bamog. If you kill the leader, the rest of them might leave us farmers in peace."
+1,id_1092511116141117629,alof the easterner,Alof the Easterner,Nord,Male,,Topic,"The Orcs come from what the local Dunmer call Ashunartes. It's a Daedric ruin northeast of here and just west of an old Dunmer stronghold. I heard these Orcs are led by the Barbarian Burub gra-Bamog. If you kill the leader, the rest of them might leave us farmers in peace."
 ,id_29859244853096711707,andrelheim,Andrelheim,Nord,Male,,Greeting,"*Burp!*  Arrgghh!  Welcome to Thirshk, %PCRace!  The mead is a shpecial blend, imported all the way from... *Burp!* Shkyrim!  Drink up!"
 ,id_30651148481191013316,andrelheim,Andrelheim,Nord,Male,,Greeting,"*Burp!*  Welcome to Thirshk, my friend!  It'sh alwaysh great to shee a new Nord fashe!  The mead is a shpecial blend, imported all the way from... *Burp!* Shkyrim!  Drink up!"
 ,id_1421881991555426454,Audmund,Audmund,Nord,Male,,Greeting,"Handing out the equipment like a good little flunky, eh?"
@@ -12897,7 +12897,7 @@ the dream is the door and the star is the key"
 ,id_533715946135262563,bm_bathmar,Bathmar Bold-Lute,Nord,Male,,Greeting,"[Bathmar plays his lute and sings the praises of the new chieftain of Thirsk] In the cave she met the beast, and cut quite short its evil feast! And when the Udyrfrykte did fall, the chieftain came and claimed her hall! The danger gone the mead did flow, and everyone at Thirsk did know, that %PCName would rule great Thirsk until the end of time!"
 ,id_1560270961035618011,bm_bathmar,Bathmar Bold-Lute,Nord,Male,,Topic,"[Bathmar plays his lute and sings] The Udyrfrykte was a monster great, until that beast did meet its fate! At the hands of our chieftain the monster did fall, now its heart rests in this very hall!"
 ,id_3257124060996327291,Bato Veranius,Bato Veranius,Nord,Male,,Greeting,I don't care who you are. I just want you out of here. Or dead.
-,id_2588723565988925958,Bedraflod,Bedraflod,Nord,Male,Imperial Legion,Topic,Here. Take this.
+1,id_2588723565988925958,Bedraflod,Bedraflod,Nord,Male,Imperial Legion,Topic,Here. Take this.
 ,id_164597926292857270,Bedraflod,Bedraflod,Nord,Male,Imperial Legion,Topic,I gave already.
 ,id_1580659291438320434,Bedraflod,Bedraflod,Nord,Male,Imperial Legion,Topic,Yes. Right. I guess I can afford to give a little more.
 ,id_273691502665574168,botrir,Botrir,Nord,Male,,Topic,"Ah...it feels good to hold it in my hands again! Truly, this is an axe of legend, and they will sing songs and write tales of my adventures with it. I think I shall begin by killing all the witches I can find. But first, allow me to teach you something of the way of the axe."
