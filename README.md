@@ -32,3 +32,11 @@ For example, an imperial male voice line with the info_id of 123456 would be pla
 If the dialogue is for a non-NPC, such as a creature (eg. Vivec), it goes directly into a separate creatures folder. For example, a non-NPC line with the info_id of 123456 would be placed as follows:
 
 `Sound\Vo\AIV\creature\123456.mp3`
+
+If a voice line is shared between NPCs, but each NPC needs their own individual recording of a line, it can be added using the actor_id as follows:
+
+`Sound\Vo\AIV\[RACE]\[GENDER]\[Actor_Id]\[Info_Id].mp3`
+
+And similarly for creatures:
+
+`Sound\Vo\AIV\creature\[Actor_Id]\[Info_Id].mp3`
