@@ -41,6 +41,22 @@ local function getCreaturePath(infoId)
 	return string.format("Vo\\AIV\\creature\\%s.mp3", infoId)
 end
 
+--- @param race string
+--- @param sex string
+--- @param infoId string
+--- @param actorId string
+--- @return string
+local function getActorPath(race, sex, infoId, actorId)
+	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s.mp3", race, sex, actorId, infoId)
+end
+
+--- @param infoId string
+--- @param actorId string
+--- @return string
+local function getCreatureActorPath(infoId, actorId)
+	return string.format("Vo\\AIV\\creature\\%s\\%s.mp3", actorId, infoId)
+end
+
 --- @param isFemale boolean
 --- @return string
 local function getActorSex(isFemale)
@@ -64,6 +80,7 @@ local function onInfoGetText(e)
 
 	if actor then
 
+		local actorPath = getCreatureActorPath(info.id, info.actor.id)
 		local path = getCreaturePath(info.id)
 		local npc = info.actor.reference.object
 
@@ -74,11 +91,13 @@ local function onInfoGetText(e)
 			--e.text = e:loadOriginalText()
 			--local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
 			--local hash = string.upper(sha.md5(ctxt))
-
+			actorPath = getActorPath(race, sex, info.id, info.actor.id)
 			path = getPath(race, sex, info.id)
 		end
 
-		if isPathValid(path) then
+		if isPathValid(actorPath) then
+			playText(actorPath, npc)
+		elseif isPathValid(path) then
 			playText(path, npc)
 		end
 	end
