@@ -21,22 +21,36 @@ The InfoId column contains a prefix of `id_` which must be removed when naming f
 
 ### Adding Dialogue
 
-To add dialogue, once you have generated the audio, it must be placed in the following path inside `Data Files`
+Dialogue should be added, to the following paths in this priority order:
 
-`Sound\Vo\AIV\[RACE]\[GENDER]\[Info_Id].mp3`
+- For dialogue specific to a single NPC
+`Sound\Vo\AIV\[race]\[gender]\[actor id]\[info id].mp3`
 
-For example, an imperial male voice line with the info_id of 123456 would be placed as follows:
+- For dialogue shared between NPCs
+`Sound\Vo\AIV\[race]\[gender]\[info id].mp3`
 
-`Sound\Vo\AIV\imperial\m\123456.mp3`
+- For dialogue specific to a non-NPC
+`Sound\Vo\AIV\creature\[actor id]\[info id].mp3`
 
-If the dialogue is for a non-NPC, such as a creature (eg. Vivec), it goes directly into a separate creatures folder. For example, a non-NPC line with the info_id of 123456 would be placed as follows:
+- For dialogue shared between non-NPCs
+`Sound\Vo\AIV\creature\[info id].mp3`
 
-`Sound\Vo\AIV\creature\123456.mp3`
+- For faction specific dialogue specific to a single NPC
+`Sound\Vo\AIV\[race]\[gender]\[actor id]\[faction id]\[player rank]\[info id].mp3`
 
-If a voice line is shared between NPCs, but each NPC needs their own individual recording of a line, it can be added using the actor_id as follows:
+- For faction specific dialogue shared between NPCs
+`Sound\Vo\AIV\[race]\[gender]\[faction id]\[player rank]\[info id].mp3`
 
-`Sound\Vo\AIV\[RACE]\[GENDER]\[Actor_Id]\[Info_Id].mp3`
+For examples:
 
-And similarly for creatures:
+- A generic female wood elf line with the info id of 123456 would be
+`Sound\Vo\AIV\wood elf\f\123456.mp3`
 
-`Sound\Vo\AIV\creature\[Actor_Id]\[Info_Id].mp3`
+- An imerial male voice line for Caius Cosades with the info id of 123456 would be
+`Sound\Vo\AIV\imperial\m\caius cosades\123456.mp3`
+
+- A dark elf male voice line for Aryon, specific to Retainers in Great House Telvanni with the info id of 123456 would be
+`Sound\Vo\AIV\dark elf\m\aryon\Telvanni\1\123456.mp3`
+
+- A Dagoth Ur line with the info id of 123456 would be
+`Sound\Vo\AIV\creature\dagoth_ur_1\123456.mp3`
