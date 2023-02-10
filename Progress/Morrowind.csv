@@ -4522,8 +4522,8 @@ Prophets speak, but all deny."
 1,id_2196248493082513360,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Lawman,I am your patron.
 1,id_15449222813161031752,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Lawman,"I believe we can arrange a situation to our mutual benefit. I will become your patron and ally in House Telvanni if you convince another potential ally, Baladas Demnevanni, to abandon his reclusive ways and join the Council."
 1,id_161989636323058544,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Wizard,"I can grant you the rank of Master now. That will give you an equal place on the Telvanni Council. But if you aspire to a higher claim, I can also grant you the title of Magister. By accepting the title of Magister, you are announcing that you deserve the title of Archmagister more than Gothren who currently holds that rank. Which will it be?"
-,id_5765101182746824529,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,I do not have any chores for you at this time. You have done all that I would expect of a %PCRank. Find out what you need for advancement and speak with me again.
-,id_2644889831725821001,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"I do not have any chores for you at this time. You have done all that I would expect of a %PCRank. Find out what you need for advancement and speak with me again. If you need chores, speak with the other Councilors or their Mouths."
+1,id_5765101182746824529,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,I do not have any chores for you at this time. You have done all that I would expect of a %PCRank. Find out what you need for advancement and speak with me again.
+1,id_2644889831725821001,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"I do not have any chores for you at this time. You have done all that I would expect of a %PCRank. Find out what you need for advancement and speak with me again. If you need chores, speak with the other Councilors or their Mouths."
 1,id_3244528316501924147,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,I do not need any more Daedra skins at the moment.
 1,id_289951909118602595,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,I have given you my own vote for Hortator of House Telvanni. But you must get the votes of all the surviving councilors.
 1,id_1713686032761529928,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,I have given you the title of Hortator and the Robe of the Hortator. I wish you luck.
@@ -4540,7 +4540,7 @@ Prophets speak, but all deny."
 1,id_23285136902751329926,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"I trust you can already cast this spell, then. If not, speak with Hetman Abelmawia in Gnisis. He sells scrolls of cure blight."
 1,id_13003183971474426943,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"I would not pay more than 300 drakes. For that price, I could go to an alchemist."
 1,id_24187163892101531244,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"If you are having trouble finding these spells, should speak with the Telvanni mage trainer in Vivec, Fevyn Ralen. Or perhaps Felara Andrethi over at Tel Aruhn."
-,id_3149413451924438,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"If you wish to become a %NextPCRank in House Telvanni, you must have someone to represent you in the Telvanni Council Hall. Find a promising Telvanni to be your Mouth."
+1,id_3149413451924438,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"If you wish to become a %NextPCRank in House Telvanni, you must have someone to represent you in the Telvanni Council Hall. Find a promising Telvanni to be your Mouth."
 1,id_22499120482122911301,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Wizard,"If you wish, I can declare you a Magister in House Telvanni. But you should be aware of what a Magister is and does."
 1,id_2866735503117516703,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,Indarys Manor has no leader. The Redorans have been defeated.
 1,id_15408132141702522054,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Indarys Manor is built in the Bal Isra, named after the rows of stones there. You can find it on the road from Ald'ruhn to Maar Gan. Go there and slay the Redoran Banden Indarys."
@@ -4557,7 +4557,7 @@ Prophets speak, but all deny."
 1,id_19391130571424027170,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,No. You have not done enough chores.
 1,id_14108226602918829242,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Magister,"Once you have disposed of Archmagister Gothren, speak with me again."
 1,id_1898423714277662219,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,"One of our fellow Telvanni, Milyn Faram, is being assaulted by members of House Hlaalu at Odirniran."
-,id_167927447173927173,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Wizard,Only one thing remains and prevents you from declaring yourself %NextPCRank. You must see Llunela Hleran once more and find out what must be done to defend your stronghold and discourage Redoran or Hlaalu retaliation.
+1,id_167927447173927173,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Wizard,Only one thing remains and prevents you from declaring yourself %NextPCRank. You must see Llunela Hleran once more and find out what must be done to defend your stronghold and discourage Redoran or Hlaalu retaliation.
 1,id_264238851038814188,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,Rethan Manor is on the Odai Plateau. Follow the Odai River south from Balmora and you will see it on your right. Go there and slay this young Hlaalu noble.
 1,id_1795112152256244005,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Several Redoran have infiltrated Shishi and the Telvanni Faves Andes has gone into hiding. Shishi is a Velothi tower in middle of the Foyada Bani-Dad northwest of Maar Gan. Leave Maar Gan, go east past the silt strider, then follow the Foyada north and west. If you cannot find Faves Andes, look for a skull on a desk, which opens a door to a secret storage space."
 1,id_2660710564261635495,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"She has not aged well and becomes more eccentric every year. Her tower is in Tel Branora, which on Azura's Coast far to the southeast."
@@ -4586,7 +4586,7 @@ Prophets speak, but all deny."
 1,id_25470175241169431036,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,Archmagister,What brings the Archmagister here?
 1,id_8357281011768219122,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,,What brings the Telvanni Hortator here?
 1,id_23102102162409030873,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,,"What brings you to Tel Vos, %PCName?"
-,id_2342721119240609053,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,Mouth,"What can I do for you, %PCRank?"
+1,id_2342721119240609053,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,Mouth,"What can I do for you, %PCRank?"
 1,id_110911103735626668,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,"While other Councilors would insist that you stay in the Telvanni Council Hall day and night awaiting my decisions, I understand the insignificance of the daily business of the Council."
 1,id_1451629229826455,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Greeting,,"Yes, %PCName. I have heard you may want to be the Telvanni Hortator."
 1,id_854220814411418728,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Yes, I am looking for a Daedra skin. If you find one, please bring it to me. I will pay well for its delivery."
@@ -4601,12 +4601,12 @@ Prophets speak, but all deny."
 1,id_2273622215745215611,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Yes, the Faves Andas may no longer be living, but the Redorans will not have Shishi either. You have saved a potentially embarrassing situation, %PCName."
 1,id_518916878171920739,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Yes, the leader of the Hlaalu in Odirniran has been retired... It is unfortunate that Milyn Faram is also dead. His research was unusual, but promising."
 1,id_29703317042670732378,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"Yes, the leader of the Hlaalu in Odirniran has been retired... Perhaps they will not be so hasty to oppose us next time."
-,id_256103070510481544,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,"Yes, you are more than qualified for %NextPCRank."
-,id_1896381111993977,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"Yes, you have met all the requirements. You are now %NextPCRank %PCName of House Telvanni."
+1,id_256103070510481544,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,"Yes, you are more than qualified for %NextPCRank."
+1,id_1896381111993977,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"Yes, you have met all the requirements. You are now %NextPCRank %PCName of House Telvanni."
 1,id_245362887113087410,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,You already convinced enough Councilors of House Redoran on this issue. Soon we will take it before the Grand Council.
 1,id_200130052244715676,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Magister,You are now a Magister of House Telvanni. You must defeat Archmagister Gothren.
 1,id_1486930267545827349,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,You are now the Magister of House Telvanni. Defeat Gothren and you shall be the Archmagister.
-,id_60825653542313462,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"You are qualified for %NextPCRank, but you must first build a stronghold."
+1,id_60825653542313462,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Spellwright,"You are qualified for %NextPCRank, but you must first build a stronghold."
 1,id_1051627123405714789,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Archmagister,You are the new Archmagister of House Telvanni.
 1,id_36163026617241160,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Archmagister,You are the new Archmagister of House Telvanni.
 1,id_12417209471112418206,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,You dealt with the problems in Odirniran.
@@ -4620,7 +4620,7 @@ Prophets speak, but all deny."
 1,id_1853812003275328193,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"You have defeated Dagoth Ur and the Sixth House has fallen once again. You may keep the title of Hortator for a time, as there may still be need for a war leader."
 1,id_1280311661531218170,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,You have demonstrated your knowledge of the basic spells.
 1,id_90982837642815098,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Master,You have foresworn the title of Magister... But perhaps you have changed your mind. Will you fight Archmagister Gothren and claim the title as your own?
-,id_258695568698630613,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"You have found a Mouth to represent you on the Council. As your protege, Fast Eddie will do chores for you. I am pleased to see my own protege rise so quickly to the rank of %NextPCRank in House Telvanni. Please accept this glove. It was one of my first successful enchantments."
+1,id_258695568698630613,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"You have found a Mouth to represent you on the Council. As your protege, Fast Eddie will do chores for you. I am pleased to see my own protege rise so quickly to the rank of %NextPCRank in House Telvanni. Please accept this glove. It was one of my first successful enchantments."
 1,id_16507158082901630395,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"You have killed the queen? That is unfortunate. Wait a few days and return to the mind to see if a new queen has been born If not, the mine is lost forever and I will be somewhat disappointed."
 1,id_6357211092137920258,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,,"You have learned the rudimentary spells. I am proud to be your patron. For your next lesson, please take this book on War Magic by the legendary Zurin Arctus."
 1,id_21305136682615017413,aryon,Aryon,Dark Elf,Male,Telvanni,Master,Topic,Mouth,You have not done enough chores and you do not meet the requirements.
