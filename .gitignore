@@ -1,9 +1,9 @@
-LineExtractor/Esp/*
-LineExtractor/Csv/*
-LineExtractor/Json/*
+LineExtractor/Esp/**
+LineExtractor/Csv/**
+LineExtractor/Json/**
 LineExtractor/tes3conv.zip
 LineExtractor/tes3conv.exe
-LineGenerator/Sound/*
+LineGenerator/Sound/**
 LineGenerator/*.csv
 LineGenerator/*.json
 LineGenerator/*.csv~
@@ -12,6 +12,3 @@ LineGenerator/*.json~
 LineGenerator/*.json.un~
 Progress/*.csv~
 Progress/*.csv.un~
-Patcher/Kezyma.MorrowindCompatibilityPatcher.exe
-Patcher/readme.txt
-Patcher/example.bat
