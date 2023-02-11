@@ -1,0 +1,1 @@
+Kezyma.MorrowindCompatibilityPatcher.exe "Patch for Purists.esm" "PFP VoV Patch"
