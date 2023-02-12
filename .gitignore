@@ -1,14 +1,9 @@
-LineExtractor/Esp/**
-LineExtractor/Csv/**
-LineExtractor/Json/**
-LineExtractor/tes3conv.zip
-LineExtractor/tes3conv.exe
-LineGenerator/Sound/**
-LineGenerator/*.csv
-LineGenerator/*.json
-LineGenerator/*.csv~
-LineGenerator/*.csv.un~
-LineGenerator/*.json~
-LineGenerator/*.json.un~
-Progress/*.csv~
-Progress/*.csv.un~
+Tools/LineExtractor/Csv/**
+Tools/LineExtractor/Esp/**
+Tools/LineExtractor/Json/**
+Tools/LineExtractor/tes3conv.zip
+Tools/LineExtractor/tes3conv.exe
+Tools/LineGenerator/Sound/**
+Tools/LineGenerator/*.csv
+Tools/LineGenerator/*.json
+Tools/Patcher/Data Files/**
