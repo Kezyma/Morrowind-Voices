@@ -13174,8 +13174,7 @@ the dream is the door and the star is the key"
 1,id_2644873872767714755,garding,Garding the Bold,Nord,Male,,,Greeting,,"You want another shot at me, %PCName?"
 1,id_15185129392877915861,garding,Garding the Bold,Nord,Male,,,Topic,,"You won, %PCName."
 1,id_3092817651153532605,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Topic,,"%PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says the time for the hunt is near. You are both hunter and hunted. She sees you surrounded by ice. Beware betrayal! Oddfrid sees...she sees a giant.  And.... Yes! The horned huntsman! That is all. I'm not sure what it all means, but Oddfrid has nothing more to say."
-1,id_198422033013887203,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Topic,,"%PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says you have accomplished much here on Solstheim, and your future is unclear. But wait! She sees something else.  Something very cloudy, something that could affect us all.  When the dragon dies, the Empire dies. Where is the lost dragon's blood, the
-Empire's sire? And from the womb of the void, who shall stem the blood tide? I...I do not know what this means.  It is very unclear...."
+1,id_198422033013887203,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Topic,,"%PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says you have accomplished much here on Solstheim, and your future is unclear. But wait! She sees something else.  Something very cloudy, something that could affect us all.  When the dragon dies, the Empire dies. Where is the lost dragon's blood, the Empire's sire? And from the womb of the void, who shall stem the blood tide? I...I do not know what this means.  It is very unclear...."
 1,id_20888149043190219153,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Greeting,,"%PCClass, you've returned!  And you've found Oddfrid!  Yes, I know...Oddfrid is a skull.  She was a skull when I first found her, but she does talk to me.  I hear her voice inside my head.  I would have told you the truth, but I didn't want you to think I was crazy.  So tell me, %PCName -- do you want me to tell your future?  Or perhaps I should first remove Thormoor's curse of eternal wakefulness?"
 1,id_658515013115730357,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Greeting,,"%PCClass, you've returned!  And you've found Oddfrid!  Yes, I know...Oddfrid is a skull.  She was a skull when I first found her, but she does talk to me.  I hear her voice inside my head.  I would have told you the truth, but I didn't want you to think I was crazy.  So tell me, %PCName -- do you want me to tell your future?"
 1,id_258111761439912288,geilir the mumbling,Geilir the Mumbling,Nord,Male,,,Greeting,,"%PCClass, you've returned!  Oh, I see you haven't found Oddfrid White-Lip.  I do hope the draugrs haven't proved too much for you.  My nights are especially lonely without Oddfrid's sweet voice to keep me company.  You should hear her joke about the Khajiit fishmonger...now THAT'S a good one!  Anyway, when you rescue Oddfrid, please return to me.  Now, as you can see, my dwelling is still in shambles, and there's a lot of cleaning left to do.  Goodbye."
@@ -13240,58 +13239,58 @@ Empire's sire? And from the womb of the void, who shall stem the blood tide? I..
 1,id_202642100038582712,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,Ahhh! Filthy witch! I'll wear her bones in my beard! I'll bathe in her tears!
 1,id_23682213221278725710,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,Ahhhh...you've removed this enchantment with your spell to cure disease!
 1,id_2062532424175718236,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"Aye. A foul witch has given me some enchanted disease, leaving me rooted to this spot. She called it Witchwither. Foul temptress! I had been her escort; she was a big woman, friendly...you know. Then the damned witch ensorcelled me, leaving me at this spot, nearly naked, to display my shame to the world! Hisin Deep-Raed is not accustomed to being mocked, stranger! I shall paint the ground with her entrails!"
-,id_31356304912056132193,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"Bah! I'll rid myself of this disease through sheer force of will! You'd best be going stranger, for when I break free, I'll want to test the blade of my axe, and your neck will work just fine."
-,id_4982146111857330742,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,Damned witches!!!
-,id_887017512825419136,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,Go ahead! Cast your spell! Hisin Deep-Raed fears nothing.
-,id_234261118832512224,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,I can't wait to wrap my hands around the neck of that witch!!!
-,id_30054265372752523561,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"I need no potion now, friend! I'll feed that witch's entrails to the nix-hounds!"
-,id_2186419384304659958,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"I need no spell now, friend! I'll eat that witches eyes in my soup!"
-,id_287852786910279005,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"Well done, %PCName! For a magic-user, you have a great deal of honor! Take this, my family's helm, Icecap. It was worn by my father, and his father, and by his father before him. It will protect you from the coldest of nights. Wear it with honor. Now, I must go kill that witch. I shall plant her head on a stake for all to see!"
-,id_518019333166316223,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,"Well, do your magic, outlander! Cast your spell to Cure Disease! Or have you found a potion of Cure Common Disease?"
-,id_311899330412314427,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"You have honor, %PCName. I am a man of standing among my people. My father and my father's father, and his father before him, have had songs sung of their deeds, and I shall be no different. I distrust potions in general, but bring me one from a reputable alchemist, release me from this bondage, and I will reward you. Then I shall cleave that whore in twain!"
-,id_2018912136236816262,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!
-,id_21209161715322239,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!
-,id_2055393164851876,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,"You! You will speak with me now, or you shall feel the bite of my axe! When this enchantment wears off, Hisin Deep-Raed will shed some blood!"
-,id_26937280761915621216,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"You've a spell to cure this malady? If this is a trick, stranger, yours will be the second neck I snap. Never mind. Go ahead with your spell...I couldn't be worse off than I am now. Treat me fairly, %PCName, and I will reward you. Hisin Deep-Raed shall have his revenge!"
-,id_26654179552308025531,hjoldir,Hjoldir,Nord,Male,,,Topic,,Aharasaplit camp is an outcast Ashlander camp on a beach on the southwest coast of Sheogorad island. The camp lies southwest of Dagon Fel village -- a variety of paths lead near the site.
-,id_10721140832037030122,hjoldir,Hjoldir,Nord,Male,,,Topic,,Zallay Subaddamael? I know that name. I believe that is an Ashlander who lives in Aharasaplit Camp on the southwest coast of the island.
+1,id_31356304912056132193,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"Bah! I'll rid myself of this disease through sheer force of will! You'd best be going stranger, for when I break free, I'll want to test the blade of my axe, and your neck will work just fine."
+1,id_4982146111857330742,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,Damned witches!!!
+1,id_887017512825419136,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,Go ahead! Cast your spell! Hisin Deep-Raed fears nothing.
+1,id_234261118832512224,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,I can't wait to wrap my hands around the neck of that witch!!!
+1,id_30054265372752523561,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"I need no potion now, friend! I'll feed that witch's entrails to the nix-hounds!"
+1,id_2186419384304659958,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"I need no spell now, friend! I'll eat that witches eyes in my soup!"
+1,id_287852786910279005,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"Well done, %PCName! For a magic-user, you have a great deal of honor! Take this, my family's helm, Icecap. It was worn by my father, and his father, and by his father before him. It will protect you from the coldest of nights. Wear it with honor. Now, I must go kill that witch. I shall plant her head on a stake for all to see!"
+1,id_518019333166316223,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,"Well, do your magic, outlander! Cast your spell to Cure Disease! Or have you found a potion of Cure Common Disease?"
+1,id_311899330412314427,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"You have honor, %PCName. I am a man of standing among my people. My father and my father's father, and his father before him, have had songs sung of their deeds, and I shall be no different. I distrust potions in general, but bring me one from a reputable alchemist, release me from this bondage, and I will reward you. Then I shall cleave that whore in twain!"
+1,id_2018912136236816262,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!
+1,id_21209161715322239,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!
+1,id_2055393164851876,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Greeting,,"You! You will speak with me now, or you shall feel the bite of my axe! When this enchantment wears off, Hisin Deep-Raed will shed some blood!"
+1,id_26937280761915621216,hisin deep-raed,Hisin Deep-Raed,Nord,Male,,,Topic,,"You've a spell to cure this malady? If this is a trick, stranger, yours will be the second neck I snap. Never mind. Go ahead with your spell...I couldn't be worse off than I am now. Treat me fairly, %PCName, and I will reward you. Hisin Deep-Raed shall have his revenge!"
+1,id_26654179552308025531,hjoldir,Hjoldir,Nord,Male,,,Topic,,Aharasaplit camp is an outcast Ashlander camp on a beach on the southwest coast of Sheogorad island. The camp lies southwest of Dagon Fel village -- a variety of paths lead near the site.
+1,id_10721140832037030122,hjoldir,Hjoldir,Nord,Male,,,Topic,,Zallay Subaddamael? I know that name. I believe that is an Ashlander who lives in Aharasaplit Camp on the southwest coast of the island.
 1,id_242753219211862537,Firemoth_Warrior,Hjrondir,Nord,Male,,,Greeting,,Lead the way! We're here to kill!
-,id_1425428293323619623,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,"I don't get it. Don't you want to fight? Oh! Wait! I see. You are a GOOD guy! Sure. I understand. So now I got to get lost. Fast, right? Okay. Time to use that old Recall amulet. So long, pal... and thanks."
-,id_751152312700211340,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,That suits me fine. For Athyn! Let all the world be bathed in your dog's-water blood!
-,id_307761442028033143,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Greeting,,What do you want?
-,id_2679027654131189196,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,"Yeah? Well, what are you going to do about it?"
-,id_117453099256346415,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,A fine axe it is. Perhaps the best ever crafted.
-,id_2763820566258111868,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"A witch she had to be. I was on my way to Caldera when I met her. She was a stranger here like myself, and our conversations lightened the burden of travel. She was quite friendly and, well, y'know, we set up camp together. But that night she revealed the witch inside. Cast a spell on me. I couldn't so much as blink! Stole everything, even my worn out clothes, but most importantly, she took my prized axe Cloudcleaver. Join with me, stranger! And let's find her and extract her entrails together!"
-,id_80832147577017222,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, me axe Cloudcleaver. A fine blade she is, though now I fear what that witch's touch will do to it. Me own father Balmir used it himself to slay the Terror of Wrothgar's Quagmire, he did. Now granted the Terror turned out to be a new born nix-hound eating the neighbor's marshmerrow, but me father found him and slew him nevertheless in as grand a fashion as I have ever borne witness to. I cannot wait to have the blade in my hands again, then I'll use it to take that witch's head clean off, I will."
-,id_26332259411248911020,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight."
-,id_9126137691851022437,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight."
-,id_29712207392309926898,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Bah, I took you for a coward the moment I saw you!  Stand aside then and make way for any real warriors who be walking this path."
-,id_28491118892498420120,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"Hail and well met stranger!  As ye can plainly see, I require some assistance if ye be kind enough to grant it. I need help finding the festering witch who has robbed me blind and left me for dead."
-,id_30533140152978823634,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I knew you had the bloodlust in you, stranger! I believe she is still camped where I left her up to the northwest, though I could be wrong as the spell disoriented me a bit, it did. You know this area better than me -- lead the way! This witch shall rue the day she met Hlormar Wine-Sot!"
-,id_211722135213915999,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I will have my axe, cur!"
-,id_12598372729412186,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I'm not sure how you got your hands on it again, but I'll have that axe back now!"
-,id_25166277721472414893,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,It is good she is dead.
-,id_971224391425227064,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,It is good to have my axe in my hands again!
-,id_352211801756417471,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I've no more to say to you, coward. Get out of my sight."
-,id_1569290501228623240,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Makes me living as a fighter for hire I do. Learned the way as a lad in the basement of every seedy bar in Windhelm. After me father's life was claimed by the snow elves, I had to provide for meself with odd mercenary jobs. I'm good with me fists, and better with me axe. I came to Vvardenfell once it was opened to search out some new fortune among these damn dark elves. Now look what's happened to me."
-,id_2244928392473729022,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Methinks that a poor, poor decision on your part friend."
-,id_8649317322736618533,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Onward friend, we must find this witch before she moves again. I can feel Cloudcleaver calling out to me to rescue it from the clutches of evil."
-,id_28163300022327818228,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"Seems a bit chilly today, doesn't it?"
-,id_307149423293015607,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"That is a poor, poor decision on your part, friend."
-,id_967013834339425374,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,That she is. She must pay for what she's done to me!
-,id_19953314722543224383,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"That's right, they're all damn lies!  Is that a doubting look I see in your eye, friend?  Whose side are you on here?"
-,id_30647273571651030033,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then let's show this witch the way to her grave together!
-,id_14496281543190528927,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then let's show this witch the way to her grave together!
-,id_2239543419732420,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then you will die alongside her!
-,id_1740610969133214148,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then you will die alongside her!
-,id_13867582706920928,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Well I'll not be waiting another three days to have me bloody axe when it is in the hands of that damned witch!  Are you going to help me, friend, or are you believing the lies spilling out of that witch's face?"
-,id_2757230905834523173,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands - ah, my pretty, I've missed you so...."
-,id_17661150863116919945,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands. Ah, my pretty, I've missed you so...."
-,id_30762243651249824115,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands. Ah, my pretty, I've missed you so...."
-,id_2730917146129921276,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"You have Cloudcleaver, my friend. I would like it back."
-,id_412561463126721508,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,"It's a worthy cause. Sorry, but this is all I can afford."
-,id_139375233946027479,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,You have my contribution.
-,id_125037446676431918,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,"You're right. We all must do our part. Here. It's not much, but it's all I can spare."
+1,id_1425428293323619623,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,"I don't get it. Don't you want to fight? Oh! Wait! I see. You are a GOOD guy! Sure. I understand. So now I got to get lost. Fast, right? Okay. Time to use that old Recall amulet. So long, pal... and thanks."
+1,id_751152312700211340,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,That suits me fine. For Athyn! Let all the world be bathed in your dog's-water blood!
+1,id_307761442028033143,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Greeting,,What do you want?
+1,id_2679027654131189196,Hloggar the Bloody,Hloggar the Bloody,Nord,Male,Hlaalu,Kinsman,Topic,,"Yeah? Well, what are you going to do about it?"
+1,id_117453099256346415,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,A fine axe it is. Perhaps the best ever crafted.
+1,id_2763820566258111868,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"A witch she had to be. I was on my way to Caldera when I met her. She was a stranger here like myself, and our conversations lightened the burden of travel. She was quite friendly and, well, y'know, we set up camp together. But that night she revealed the witch inside. Cast a spell on me. I couldn't so much as blink! Stole everything, even my worn out clothes, but most importantly, she took my prized axe Cloudcleaver. Join with me, stranger! And let's find her and extract her entrails together!"
+1,id_80832147577017222,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, me axe Cloudcleaver. A fine blade she is, though now I fear what that witch's touch will do to it. Me own father Balmir used it himself to slay the Terror of Wrothgar's Quagmire, he did. Now granted the Terror turned out to be a new born nix-hound eating the neighbor's marshmerrow, but me father found him and slew him nevertheless in as grand a fashion as I have ever borne witness to. I cannot wait to have the blade in my hands again, then I'll use it to take that witch's head clean off, I will."
+1,id_26332259411248911020,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight."
+1,id_9126137691851022437,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight."
+1,id_29712207392309926898,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Bah, I took you for a coward the moment I saw you!  Stand aside then and make way for any real warriors who be walking this path."
+1,id_28491118892498420120,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"Hail and well met stranger!  As ye can plainly see, I require some assistance if ye be kind enough to grant it. I need help finding the festering witch who has robbed me blind and left me for dead."
+1,id_30533140152978823634,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I knew you had the bloodlust in you, stranger! I believe she is still camped where I left her up to the northwest, though I could be wrong as the spell disoriented me a bit, it did. You know this area better than me -- lead the way! This witch shall rue the day she met Hlormar Wine-Sot!"
+1,id_211722135213915999,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I will have my axe, cur!"
+1,id_12598372729412186,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I'm not sure how you got your hands on it again, but I'll have that axe back now!"
+1,id_25166277721472414893,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,It is good she is dead.
+1,id_971224391425227064,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,It is good to have my axe in my hands again!
+1,id_352211801756417471,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"I've no more to say to you, coward. Get out of my sight."
+1,id_1569290501228623240,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Makes me living as a fighter for hire I do. Learned the way as a lad in the basement of every seedy bar in Windhelm. After me father's life was claimed by the snow elves, I had to provide for meself with odd mercenary jobs. I'm good with me fists, and better with me axe. I came to Vvardenfell once it was opened to search out some new fortune among these damn dark elves. Now look what's happened to me."
+1,id_2244928392473729022,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Methinks that a poor, poor decision on your part friend."
+1,id_8649317322736618533,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Onward friend, we must find this witch before she moves again. I can feel Cloudcleaver calling out to me to rescue it from the clutches of evil."
+1,id_28163300022327818228,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"Seems a bit chilly today, doesn't it?"
+1,id_307149423293015607,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"That is a poor, poor decision on your part, friend."
+1,id_967013834339425374,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,That she is. She must pay for what she's done to me!
+1,id_19953314722543224383,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"That's right, they're all damn lies!  Is that a doubting look I see in your eye, friend?  Whose side are you on here?"
+1,id_30647273571651030033,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then let's show this witch the way to her grave together!
+1,id_14496281543190528927,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then let's show this witch the way to her grave together!
+1,id_2239543419732420,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then you will die alongside her!
+1,id_1740610969133214148,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,Then you will die alongside her!
+1,id_13867582706920928,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Well I'll not be waiting another three days to have me bloody axe when it is in the hands of that damned witch!  Are you going to help me, friend, or are you believing the lies spilling out of that witch's face?"
+1,id_2757230905834523173,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands - ah, my pretty, I've missed you so...."
+1,id_17661150863116919945,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands. Ah, my pretty, I've missed you so...."
+1,id_30762243651249824115,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Topic,,"Yes, let me hold her in my hands. Ah, my pretty, I've missed you so...."
+1,id_2730917146129921276,hlormar wine-sot,Hlormar Wine-Sot,Nord,Male,,,Greeting,,"You have Cloudcleaver, my friend. I would like it back."
+1,id_412561463126721508,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,"It's a worthy cause. Sorry, but this is all I can afford."
+1,id_139375233946027479,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,You have my contribution.
+1,id_125037446676431918,Hoki,Hoki,Nord,Male,Morag Tong,Thinker,Topic,,"You're right. We all must do our part. Here. It's not much, but it's all I can spare."
 ,id_1699126956327204753,holmar,Holmar,Nord,Male,,,Topic,,"*hiccup* Well, I guess that my pockets are starting to *hiccup* run a bit dry. And Wood Elf tossing *hiccup* just isn't as much fun when you're *hiccup* broke. I'll leave... but only because *hiccup* I love you so much, %PCRace. *hiccup*.  Um, okay.  *hiccup*.  I'll be out of here soon."
 ,id_1429622655126785090,holmar,Holmar,Nord,Male,,,Greeting,,"*Hiccup*... Hey, where's my sujamma? What's taking so long.... Oh. You don't look like the... pulican. Pelican. Publican. That's it. Publican. Get outta my way. HEY? Where's my SUJAMMA?"
 ,id_1277445542840811834,holmar,Holmar,Nord,Male,,,Greeting,,"*Hiccup*... Okay, okay. I was just going anyway. Just let me finish this drink...."
@@ -13299,35 +13298,35 @@ Empire's sire? And from the womb of the void, who shall stem the blood tide? I..
 ,id_128328401263457758,holmar,Holmar,Nord,Male,,,Topic,,"Not with that wee little beastie person peering at me with those big round eyes of his. *hiccup* He's putting a hex on me, I know it."
 ,id_126391760623911880,holmar,Holmar,Nord,Male,,,Topic,,"Once not enough, you squat, *hiccup* dumpy treefrog of an elf? I'll take on you and your ugly *hiccup* %PCRace friend too."
 ,id_12896295041438815105,holmar,Holmar,Nord,Male,,,Topic,,"Well, *hiccup* aren't you the uppity one. All right, have at. *hiccup*"
-,id_2284162361367518207,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_15115114812138631024,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_7579117783171214203,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_731465581814812527,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_3101257063208914982,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_774230393624926173,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_232788305599126543,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_2677921808100214765,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_1393122572769712662,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_1596014266109399564,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_2632427741322528929,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_214671568820934104,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_202431056703711036,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_15838158431181918478,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_3052820791859021213,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_327451564093512184,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_19742144401495913234,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_4582155261811215742,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_13023134382095330882,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_324276707466223819,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_31056404217018327,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_567312371025327009,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_1407611073062124071,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_17318155961664823386,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_2853524411223339493,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_27056303551089117188,holmar,Holmar,Nord,Male,,,Topic,,Wha?
-,id_58911101260784545,holmar,Holmar,Nord,Male,,,Topic,,What Temple?
-,id_24466270221780819366,holmar,Holmar,Nord,Male,,,Topic,,"What?  *hiccup*  Well, I'm not one to turn down a drink. Barkeep! *hiccup* gimme two more sujamma's! Now! I like one in each hand.  *gulp gulp gulp*  Ah... that hits the ssssspot..... *hiccup* [Holmar downs his drinks. He grins broadly. His eyes struggle to focus. He sways gently, like a tree in the wind....]"
-,id_26212118821994920994,holmar,Holmar,Nord,Male,,,Topic,,"You can't afford my appetite, outlander. *hiccup*"
+1,id_2284162361367518207,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_15115114812138631024,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_7579117783171214203,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_731465581814812527,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_3101257063208914982,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_774230393624926173,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_232788305599126543,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_2677921808100214765,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_1393122572769712662,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_1596014266109399564,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_2632427741322528929,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_214671568820934104,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_202431056703711036,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_15838158431181918478,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_3052820791859021213,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_327451564093512184,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_19742144401495913234,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_4582155261811215742,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_13023134382095330882,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_324276707466223819,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_31056404217018327,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_567312371025327009,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_1407611073062124071,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_17318155961664823386,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_2853524411223339493,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_27056303551089117188,holmar,Holmar,Nord,Male,,,Topic,,Wha?
+1,id_58911101260784545,holmar,Holmar,Nord,Male,,,Topic,,What Temple?
+1,id_24466270221780819366,holmar,Holmar,Nord,Male,,,Topic,,"What?  *hiccup*  Well, I'm not one to turn down a drink. Barkeep! *hiccup* gimme two more sujamma's! Now! I like one in each hand.  *gulp gulp gulp*  Ah... that hits the ssssspot..... *hiccup* [Holmar downs his drinks. He grins broadly. His eyes struggle to focus. He sways gently, like a tree in the wind....]"
+1,id_26212118821994920994,holmar,Holmar,Nord,Male,,,Topic,,"You can't afford my appetite, outlander. *hiccup*"
 1,id_88631762947825776,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Topic,,"Excellent. Here's what I want you to do. I'm not sure where he goes, but I know he wanders around town at night. Watch his movements. The best vantage point is on top of the lighthouse south of town. That will give you a nice view of all of Seyda Neen. If you keep an eye on where he goes, I'm sure you'll be able to figure out where he's hiding that gold."
 1,id_27267190741812863,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Topic,,"Good that you found that for me, friend. I'll make that little fetcher pay for lying to me. Although, I've got to be honest, it is kind of fun messing with the little guy. I like to take something from his place and stick it in that old barrel in the Census and Excise courtyard. Hehe...gives the new arrivals something to look forward to."
 1,id_2971935711263120030,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Topic,,"I know the little fetcher's got one somewhere in town. Just not sure where yet. I've already gone through his whole house, so I know he's not hiding it there. I'd like you find out where he's stashing his gold. If you can, I'll give you a share of the wealth. Are you up for it?"
@@ -13339,26 +13338,26 @@ Empire's sire? And from the womb of the void, who shall stem the blood tide? I..
 1,id_16579142372886815287,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Greeting,,You were supposed to find Fargoth's hiding place. Were you able to?
 1,id_2916020299178068693,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Topic,,"You've found his hiding place? That's great, but where's the gold??? You trying to hold out on me, %PCRace?"
 1,id_13504245661527210384,hrisskar flat-foot,Hrisskar Flat-Foot,Nord,Male,Imperial Legion,Trooper,Topic,,"You've found his hiding place? That's great. Tell you what...I'll give you 100 gold, and you can keep anything else that you found in there. Thanks for your help."
-,id_2893939111582217967,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,"Aye, that's right. Should be somewhere between here an' the colony, I figure. Don' worry about me; I'll take of the wolves. You just make sure the lad shows up here, eh?"
-,id_1650026397463117269,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Carnius had somethin' for yeh, once the messenger was dead. Here, take this and get movin'. He'll be wantin' to know that this lad won't be arrivin'."
-,id_25963179523182314387,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,"Do you dare to mock Hroldar, the messenger of Nature herself? Then you too shall fall in the coming storm that shall wipe this land clean of your pestilence!"
-,id_392010297622421509,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,Don't yeh worry yerself about it. My wolves'll take good care of him.
-,id_1961721004662220602,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,Go meet Hroldar in the courtyard. He'll take you to the ambush location.
-,id_1196942241319028406,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,I gave yeh the stuff Carnius wanted yeh to have; nothin' left to say. We're done here.
-,id_2241431820148328076,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,I'll not give in to you! Cease this violence before you bring death and destruction on yourself!
-,id_27513566569273878,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Jus' bring the messenger here, an' the wolves'll make short work of 'im."
-,id_22082492545629797,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,"Just leave me alone, okay?"
-,id_54553145950021057,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Let's get a move on, %PCName. Don't want to get Carnius mad, now do yeh?"
-,id_13635652223098726,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"Look, I said I'll leave. Just stay away from me, will you?"
-,id_1914725554257516648,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"OW! Okay, okay. I'll go away - just stop hitting me! Just give me a minute to collect myself. I promise I'll be gone the next time you come back. Oh, that's going to leave such a bruise..."
-,id_15813101361827224851,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Right. Now we're to it. You go fetch this messenger fellah, and I'll take care of gettin' the wolves."
-,id_30509177131619512330,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"Sent you to talk me out of this, have they? Those devils won't be rid of me so easily! Talk all you like, %PCRace. The curse I place on you will be all the more painful for it."
-,id_114270181938618692,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to realize it weren't a joke. Don't worry - I won't be holdin' that little scuffle against yeh. Yeh were jus' followin' orders is all. We'd best get going, if we're goin' to catch this lad. We can sort out the details once we get there. Let's go."
-,id_223146195503927628,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to realize it weren't a joke. Surprised to see me, are yeh? That trick ring of Carnius' did quite a number. Don't have one this time around, though, so I'd hate to have to put yeh down. Don't get any bright ideas about fightin'. Now, we'd best get going if we're goin' to catch this lad. We can sort out the details once we get there. Let's go."
-,id_605971881964319970,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well, there's no contest now. He's done for."
-,id_2130225667299072981,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,"Yeh see the look on his face? Ha ha! Wasn' expectin' that, I can tell yeh!"
-,id_26140112882316412518,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"You! If you're part of this accursed plot to rape the land, you'll suffer the same fate as all the rest! You'll be cursed.... cursed, I tell you!"
-,id_841181381115431696,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"You'll not infect me with your Devilry, %PCRace! I am here to defend Nature, and I'll do so at any cost! Now begone!"
+1,id_2893939111582217967,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,"Aye, that's right. Should be somewhere between here an' the colony, I figure. Don' worry about me; I'll take of the wolves. You just make sure the lad shows up here, eh?"
+1,id_1650026397463117269,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Carnius had somethin' for yeh, once the messenger was dead. Here, take this and get movin'. He'll be wantin' to know that this lad won't be arrivin'."
+1,id_25963179523182314387,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,"Do you dare to mock Hroldar, the messenger of Nature herself? Then you too shall fall in the coming storm that shall wipe this land clean of your pestilence!"
+1,id_392010297622421509,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,Don't yeh worry yerself about it. My wolves'll take good care of him.
+1,id_1961721004662220602,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,Go meet Hroldar in the courtyard. He'll take you to the ambush location.
+1,id_1196942241319028406,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,I gave yeh the stuff Carnius wanted yeh to have; nothin' left to say. We're done here.
+1,id_2241431820148328076,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,I'll not give in to you! Cease this violence before you bring death and destruction on yourself!
+1,id_27513566569273878,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Jus' bring the messenger here, an' the wolves'll make short work of 'im."
+1,id_22082492545629797,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Topic,,"Just leave me alone, okay?"
+1,id_54553145950021057,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Let's get a move on, %PCName. Don't want to get Carnius mad, now do yeh?"
+1,id_13635652223098726,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"Look, I said I'll leave. Just stay away from me, will you?"
+1,id_1914725554257516648,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"OW! Okay, okay. I'll go away - just stop hitting me! Just give me a minute to collect myself. I promise I'll be gone the next time you come back. Oh, that's going to leave such a bruise..."
+1,id_15813101361827224851,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Right. Now we're to it. You go fetch this messenger fellah, and I'll take care of gettin' the wolves."
+1,id_30509177131619512330,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"Sent you to talk me out of this, have they? Those devils won't be rid of me so easily! Talk all you like, %PCRace. The curse I place on you will be all the more painful for it."
+1,id_114270181938618692,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to realize it weren't a joke. Don't worry - I won't be holdin' that little scuffle against yeh. Yeh were jus' followin' orders is all. We'd best get going, if we're goin' to catch this lad. We can sort out the details once we get there. Let's go."
+1,id_223146195503927628,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to realize it weren't a joke. Surprised to see me, are yeh? That trick ring of Carnius' did quite a number. Don't have one this time around, though, so I'd hate to have to put yeh down. Don't get any bright ideas about fightin'. Now, we'd best get going if we're goin' to catch this lad. We can sort out the details once we get there. Let's go."
+1,id_605971881964319970,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Greeting,,"Well, there's no contest now. He's done for."
+1,id_2130225667299072981,Hroldar the Strange_b,Hroldar the Strange,Nord,Male,,,Topic,,"Yeh see the look on his face? Ha ha! Wasn' expectin' that, I can tell yeh!"
+1,id_26140112882316412518,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"You! If you're part of this accursed plot to rape the land, you'll suffer the same fate as all the rest! You'll be cursed.... cursed, I tell you!"
+1,id_841181381115431696,Hroldar the Strange,Hroldar the Strange,Nord,Male,,,Greeting,,"You'll not infect me with your Devilry, %PCRace! I am here to defend Nature, and I'll do so at any cost! Now begone!"
 ,id_23340961627326361,hrundi,Hrundi,Nord,Male,Fighters Guild,Champion,Topic,,"Alright, %PCName. You've convinced me. But Sjoring knows who my lover is. If he suspects anything, he'll take her away from me. I'll go along for now. Just be sure to take Sjoring out quickly. Don't give him a chance to regroup. For her sake. And yours."
 ,id_31508145581416228727,hrundi,Hrundi,Nord,Male,Fighters Guild,Champion,Topic,,"Engaer is a Bosmer mercenary for Master Neloth. One of our clients wants him dead. Engaer is in Tel Naga, the tower here in Sadrith Mora. Try to avoid the other guards, and just kill Engaer. We don't need more trouble with House Telvanni. I'll give you half the bounty if you take care of this."
 ,id_260512049306974389,hrundi,Hrundi,Nord,Male,Fighters Guild,Champion,Topic,,"Get moving, %PCRank. I need you to escort Sondaale through Telasero."
