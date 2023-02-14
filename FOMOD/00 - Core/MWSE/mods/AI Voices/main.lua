@@ -69,7 +69,6 @@ local function isPathValid(path)
 	return lfs.fileexists("Data Files\\Sound\\" .. path)
 end
 
--- TODO: Optionally filter for greetings only
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
 	local info = e.info
