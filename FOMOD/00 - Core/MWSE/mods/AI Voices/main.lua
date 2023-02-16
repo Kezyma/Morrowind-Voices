@@ -35,6 +35,16 @@ local function getPath(race, sex, infoId)
 	return string.format("Vo\\AIV\\%s\\%s\\%s.mp3", race, sex, infoId)
 end
 
+--- @param race string
+--- @param sex string
+--- @param infoId string
+--- @param facId string
+--- @param rank number
+--- @return string
+local function getFactionPath(race, sex, infoId, facId, rank)
+	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s\\%s.mp3", race, sex, facId, rank, infoId)
+end
+
 --- @param infoId string
 --- @return string
 local function getCreaturePath(infoId)
@@ -48,6 +58,17 @@ end
 --- @return string
 local function getActorPath(race, sex, infoId, actorId)
 	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s.mp3", race, sex, actorId, infoId)
+end
+
+--- @param race string
+--- @param sex string
+--- @param infoId string
+--- @param actorId string
+--- @param facId string
+--- @param rank number
+--- @return string
+local function getActorFactionPath(race, sex, infoId, actorId, facId, rank)
+	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s\\%s\\%s.mp3", race, sex, actorId, facId, rank, infoId)
 end
 
 --- @param infoId string
@@ -86,12 +107,22 @@ local function onInfoGetText(e)
 		if actor.objectType == tes3.objectType.npc then
 			local race = npc.race.id:lower()
 			local sex = getActorSex(npc.female)
+			local faction = npc.faction
+			if faction ~= nil then
+				local facid = faction.id
+				local prank = faction.playerRank
+				if prank >= -1 then
+					actorPath = getActorFactionPath(race, sex, info.id, info.actor.id, facid, prank)
+					path = getPath(race, sex, info.id, facid, prank)
+				end
+			end
 
-			--e.text = e:loadOriginalText()
-			--local ctxt = string.gsub(string.gsub(e.text, "@", ""), "#", "")
-			--local hash = string.upper(sha.md5(ctxt))
-			actorPath = getActorPath(race, sex, info.id, info.actor.id)
-			path = getPath(race, sex, info.id)
+			if isPathValid(actorPath) == false then
+				actorPath = getActorPath(race, sex, info.id, info.actor.id)
+			end
+			if isPathValid(path) == false then
+				path = getPath(race, sex, info.id)
+			end
 		end
 
 		if isPathValid(actorPath) then
