@@ -1,5 +1,5 @@
 local metadata = {}
 
-metadata.version = "0.0.14"
+metadata.version = "0.0.15"
 
 return metadata
