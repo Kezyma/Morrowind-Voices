@@ -1065,52 +1065,52 @@
 1,id_1589317634243113918,Alvura Othrenim,Alvura Othrenim,Dark Elf,Female,,,Topic,,"You, foreigner! You must die. Beasts and men, outlander mer, all must die. Flee his wrath and quit this land, if you would live, or your flesh shall feed the earth."
 1,id_1551488902659621809,Alynu Aralen,Alynu Aralen,Dark Elf,Female,,,Topic,,"No. I haven't seen any Telvanni agents around here. Although, now that you mention it...."
 1,id_2432489491161113388,Alynu Aralen,Alynu Aralen,Dark Elf,Female,,,Topic,,"Pity you had to get mixed up in this, %PCRank %PCName. But we can't just let you walk away. Nothing personal, you understand. Just business."
-,id_400227747249982377,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Among mortals, you are indeed great. Among the ancestors, you are of little account."
-,id_365223922173330621,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"An ancestor has no trade, but to guard and counsel the living kin."
-,id_96402729205982771,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Honor the ancestors with your heart, not with your tongue."
-,id_315023742195826873,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"I am %name. I was called to the prophecies, but I was not the one."
-,id_15673132434353420,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,I have failed. I was not the one.
-,id_4891149171116310747,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Greeting,,"I wait and hope. Ask, and I shall tell you my story."
-,id_14129208691792814398,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"I was a holy crusader of the Temple in the golden era of the Tribunate. I contributed substantially to the writings that were later suppressed by the Temple, and now would be called apographa. I followed the Tribunal unquestioningly, to my regret. I never believed in the Nerevarine prophecies until it was too late. Take my humble possessions, with my blessing."
-,id_18510119522785722450,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Indeed, mortal, death is bitter. But your time will come."
-,id_326912725701714286,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,Only the winds of death blow from the lips of mortals.
-,id_51221362149622068,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Speak with disrespect to the spirits, and you will regret it."
-,id_1812419429233622434,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"The Devil is dead, and the Blight is gone. You are the Nerevarine. You are the Incarnate. You are the one."
-,id_29087205751552323629,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Greeting,,"Welcome, Incarnate. I am Ane Teria. I was not the one. But I wait and hope. Ask, and I shall tell you my story."
-,id_133928217305419560,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,What use does a spirit have for gold?
-,id_96513077718829414,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,You are the Nerevarine. You are the Incarnate. You are the one. You must not fail.
-,id_501815288981727742,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,You do right to honor the ancestors.
-,id_218997615188231249,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,Your offering does you honor.
-,id_15767133192949410750,anis seloth,Anis Seloth,Dark Elf,Female,Telvanni,Retainer,Topic,,"I wouldn't give out my potion recipes to anyone, no matter who they were!"
-,id_104471798161766259,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"A mage skilled at Conjuration is adept at summoning otherworldly creatures, including ghosts."
-,id_6863169311329315760,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an old tradition, rarely used -- never in my lifetime. A Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time."
-,id_32755123952473623075,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Do you have the five portions of sload soap?
-,id_301414773815813771,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,Do you have the Sload Soap?
-,id_1053881362062210014,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Good. I hope Master Neloth will be pleased with it. I have this old dagger I no longer use. And I can teach you to blind your enemies as the staff does.
-,id_14733312872411628382,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,Have you found the Staff of the Silver Dawn?
-,id_4481246121360912366,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,"I am Arara Uvulas, the Mouth of Master Neloth."
-,id_2924124023160222167,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I believe someone in the Mages Guild here is Sadrith Mora has this staff. Master Neloth wants the staff, and I cannot leave my duties here long enough to fetch it for him. Go to Wolverine Hall, get the staff, and bring it back to me."
-,id_14932325001243732367,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I do not appreciate tricks, %PCName. Either bring me the sload soap, or..."
-,id_669111522836732046,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I do not have any chores for you. Check with my patron, Master Neloth, or with the other Mouths."
-,id_2962720105208702035,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,Lawman,I do not think Dratha would agree to be your patron.
-,id_2501518882903012633,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,I don't think you should even discuss that with Master Neloth. I don't think it's a good idea at all.
-,id_1089419139468523483,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,I have all the sload soap I need right now.
-,id_220207212153138530,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I inspected the manifestations in the South Turret bed chamber of the Gateway Inn. I examined the site thoroughly, but I found no evidence of a restless spirit or ancestral influences. The ghost itself is trivial, and easily banished, but I don't know why it reappears, or how to stop the reappearances. I can't be sure, but my experience and intuition tells me that a Conjuration expert is involved. By that, I mean a mage skilled at summoning ghosts. That's all I can tell you."
-,id_21394151721965716727,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I see. Well. It sounds important. You'll have to speak directly to Master Neloth about this. Tel Naga, Master Neloth's tower, is right in the center of Sadrith Mora."
-,id_2350369409077802,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Is that the Staff of the Silver Dawn?
-,id_2374813428513915355,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Master Neloth asked me to acquire a Staff of the Silver Dawn and deliver it to him.
-,id_11637301442888432605,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,Lawman,Master Neloth is not taking on any proteges.
-,id_62624835749723184,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Master Neloth is venerable and patient, but he will not wait forever."
-,id_889155821127423308,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Master Neloth needs five portions of Sload Soap.
-,id_26865306851011112403,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Master Neloth will want the Staff of the Silver Dawn soon, %PCName. You should give it to me before Master Neloth becomes less cooperative."
-,id_1309268552924313700,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Perhaps these will put Master Neloth in a better mood. He is old, you see, and has trouble moving about. I use the soap along with some roobrush and bonemeal to make an ointment for his joints."
-,id_2433414757728528522,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Skink-in-Tree's-Shade seems like a decent sort... for an Argonian. But he has an unhealthy interest in vampires.
-,id_135263543293503920,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,That's a title given to a special champion and war leader among the Great Houses. Why?
-,id_14609166082516018278,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Very well. If you want more chores, speak with the other Mouths."
-,id_1023660422432314303,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, he is my patron and I represent him on the Telvanni Council. Master Neloth lives in the tower of Tel Naga, here in Sadrith Mora. What do you want?"
-,id_863329847562016635,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, Master Neloth needs five portions of sload soap to help with his research. Here are 500 drakes. You can keep what is left after you purchase the sload soap."
-,id_1343019900777228544,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, of course. [Arara teaches you to blind your enemies.] Now, if you'll excuse me..."
-,id_2078644499423237,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,You already gave me the Staff of the Silver Dawn.
+1,id_400227747249982377,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Among mortals, you are indeed great. Among the ancestors, you are of little account."
+1,id_365223922173330621,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"An ancestor has no trade, but to guard and counsel the living kin."
+1,id_96402729205982771,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Honor the ancestors with your heart, not with your tongue."
+1,id_315023742195826873,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"I am %name. I was called to the prophecies, but I was not the one."
+1,id_15673132434353420,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,I have failed. I was not the one.
+1,id_4891149171116310747,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Greeting,,"I wait and hope. Ask, and I shall tell you my story."
+1,id_14129208691792814398,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"I was a holy crusader of the Temple in the golden era of the Tribunate. I contributed substantially to the writings that were later suppressed by the Temple, and now would be called apographa. I followed the Tribunal unquestioningly, to my regret. I never believed in the Nerevarine prophecies until it was too late. Take my humble possessions, with my blessing."
+1,id_18510119522785722450,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Indeed, mortal, death is bitter. But your time will come."
+1,id_326912725701714286,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,Only the winds of death blow from the lips of mortals.
+1,id_51221362149622068,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,"Speak with disrespect to the spirits, and you will regret it."
+1,id_1812419429233622434,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,"The Devil is dead, and the Blight is gone. You are the Nerevarine. You are the Incarnate. You are the one."
+1,id_29087205751552323629,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Greeting,,"Welcome, Incarnate. I am Ane Teria. I was not the one. But I wait and hope. Ask, and I shall tell you my story."
+1,id_133928217305419560,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,What use does a spirit have for gold?
+1,id_96513077718829414,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Topic,,You are the Nerevarine. You are the Incarnate. You are the one. You must not fail.
+1,id_501815288981727742,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,You do right to honor the ancestors.
+1,id_218997615188231249,ghost_npc_ane teria,Ane Teria,Dark Elf,Female,,,Persuasion,,Your offering does you honor.
+1,id_15767133192949410750,anis seloth,Anis Seloth,Dark Elf,Female,Telvanni,Retainer,Topic,,"I wouldn't give out my potion recipes to anyone, no matter who they were!"
+1,id_104471798161766259,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"A mage skilled at Conjuration is adept at summoning otherworldly creatures, including ghosts."
+1,id_6863169311329315760,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an old tradition, rarely used -- never in my lifetime. A Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time."
+1,id_32755123952473623075,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Do you have the five portions of sload soap?
+1,id_301414773815813771,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,Do you have the Sload Soap?
+1,id_1053881362062210014,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Good. I hope Master Neloth will be pleased with it. I have this old dagger I no longer use. And I can teach you to blind your enemies as the staff does.
+1,id_14733312872411628382,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,Have you found the Staff of the Silver Dawn?
+1,id_4481246121360912366,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Greeting,,"I am Arara Uvulas, the Mouth of Master Neloth."
+1,id_2924124023160222167,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I believe someone in the Mages Guild here is Sadrith Mora has this staff. Master Neloth wants the staff, and I cannot leave my duties here long enough to fetch it for him. Go to Wolverine Hall, get the staff, and bring it back to me."
+1,id_14932325001243732367,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I do not appreciate tricks, %PCName. Either bring me the sload soap, or..."
+1,id_669111522836732046,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I do not have any chores for you. Check with my patron, Master Neloth, or with the other Mouths."
+1,id_2962720105208702035,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,Lawman,I do not think Dratha would agree to be your patron.
+1,id_2501518882903012633,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,I don't think you should even discuss that with Master Neloth. I don't think it's a good idea at all.
+1,id_1089419139468523483,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,I have all the sload soap I need right now.
+1,id_220207212153138530,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I inspected the manifestations in the South Turret bed chamber of the Gateway Inn. I examined the site thoroughly, but I found no evidence of a restless spirit or ancestral influences. The ghost itself is trivial, and easily banished, but I don't know why it reappears, or how to stop the reappearances. I can't be sure, but my experience and intuition tells me that a Conjuration expert is involved. By that, I mean a mage skilled at summoning ghosts. That's all I can tell you."
+1,id_21394151721965716727,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"I see. Well. It sounds important. You'll have to speak directly to Master Neloth about this. Tel Naga, Master Neloth's tower, is right in the center of Sadrith Mora."
+1,id_2350369409077802,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Is that the Staff of the Silver Dawn?
+1,id_2374813428513915355,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Master Neloth asked me to acquire a Staff of the Silver Dawn and deliver it to him.
+1,id_11637301442888432605,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,Lawman,Master Neloth is not taking on any proteges.
+1,id_62624835749723184,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Master Neloth is venerable and patient, but he will not wait forever."
+1,id_889155821127423308,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Master Neloth needs five portions of Sload Soap.
+1,id_26865306851011112403,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Master Neloth will want the Staff of the Silver Dawn soon, %PCName. You should give it to me before Master Neloth becomes less cooperative."
+1,id_1309268552924313700,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Perhaps these will put Master Neloth in a better mood. He is old, you see, and has trouble moving about. I use the soap along with some roobrush and bonemeal to make an ointment for his joints."
+1,id_2433414757728528522,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,Skink-in-Tree's-Shade seems like a decent sort... for an Argonian. But he has an unhealthy interest in vampires.
+1,id_135263543293503920,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,That's a title given to a special champion and war leader among the Great Houses. Why?
+1,id_14609166082516018278,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Very well. If you want more chores, speak with the other Mouths."
+1,id_1023660422432314303,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, he is my patron and I represent him on the Telvanni Council. Master Neloth lives in the tower of Tel Naga, here in Sadrith Mora. What do you want?"
+1,id_863329847562016635,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, Master Neloth needs five portions of sload soap to help with his research. Here are 500 drakes. You can keep what is left after you purchase the sload soap."
+1,id_1343019900777228544,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,"Yes, of course. [Arara teaches you to blind your enemies.] Now, if you'll excuse me..."
+1,id_2078644499423237,arara uvulas,Arara Uvulas,Dark Elf,Female,Telvanni,Mouth,Topic,,You already gave me the Staff of the Silver Dawn.
 ,id_2937116477153835707,arns saren,Arns Saren,Dark Elf,Female,Redoran,House Cousin,Topic,,It is impolite to speak of such things.
 ,id_1181727780647732127,arns saren,Arns Saren,Dark Elf,Female,Redoran,House Cousin,Topic,,She had disgraced our family. I will not say more.
 ,id_13191351119525854,arns saren,Arns Saren,Dark Elf,Female,Redoran,House Cousin,Topic,,She is no longer my daughter.
