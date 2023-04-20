@@ -375,7 +375,7 @@ Done,InfoId,SpeakerId,SpeakerName,Race,Gender,Faction,Rank,Type,PCRank,Dialogue,
 ,id_26649164721047619211,novor drethan,Novor Drethan,Dark Elf,Male,,,Topic,,"A pack of nix-hounds was attacking my miners. We thought one of the miners was lost at first, but she turned up safe. Our healer, Teres Arothan went down to look for her and hasn't come back. Would you go down into the mines and bring back Teres Arothan if he still lives? I would go myself, but I should stay here to protect the miners if the nix-hounds come back this way.",
 ,id_170991381687316186,novor drethan,Novor Drethan,Dark Elf,Male,,,Topic,,"I hope Teres Arothan is safe. If you find him, bring him back here. Once everyone is accounted for, I have a few spells that should dispense with the rest of the nix-hounds quickly and safely.",
 ,id_2855328690764514259,novor drethan,Novor Drethan,Dark Elf,Male,,,Topic,,"Now that Teres Arothan is with us, we can clean out the rest of these nix-hounds on our own.",
-,id_280332996568833086,rindral dralor,Rindral Dralor,Dark Elf,Male,,,Topic,,"My ship, the 'Whistler', can carry you from Molag Mar to Ebonheart, Hla Oad, the Foreign Quarter of Vivec, or Tel Branora.",
+1,id_280332996568833086,rindral dralor,Rindral Dralor,Dark Elf,Male,,,Topic,,"My ship, the 'Whistler', can carry you from Molag Mar to Ebonheart, Hla Oad, the Foreign Quarter of Vivec, or Tel Branora.",
 1,id_166582510415131520,salyn sarethi,Salyn Sarethi,Dark Elf,Male,Temple,Adept,Topic,,"You are doing better than I expected. But the next riddle is harder still:
 I gave you a sock, not unlike a box
 With hammers and nails all around it
