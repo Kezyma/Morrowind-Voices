@@ -1,1 +1,1 @@
-Kezyma.MorrowindLineExtractor.exe generate existingonly csv:Morrowind.csv
+Kezyma.MorrowindLineExtractor.exe generate existingonly csv:PatchForPurists.csv
