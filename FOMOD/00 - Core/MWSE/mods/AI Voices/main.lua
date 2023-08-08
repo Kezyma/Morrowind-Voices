@@ -1,19 +1,29 @@
--- local sha = require("sha2")
 local metadata = require("AI Voices.metadata")
 local version = metadata.version
-
 local config = require("AI Voices.config")
-
 
 --- @param e uiActivatedEventData
 local function onDialogActivated(e)
-	local ref = tes3ui.getServiceActor().object.reference
+	local ref = tes3ui.getServiceActor()
 	e.element:registerAfter(
 		tes3.uiEvent.destroy,
 		function()
-			tes3.removeSound { reference = ref }
+			tes3.removeSound { reference = ref, sound = nil }
+			vovActor = nil
 		end
 	)
+end
+
+--- @param e activateEventData
+local function onActivate(e)
+    if (e.activator ~= tes3.player) then
+        return
+    end
+    if (e.target.object.objectType == tes3.objectType.npc) then
+		vovActor = e.target.baseObject
+		tes3ui.logToConsole(string.format("VoV: Current actor is %s", vovActor.id))
+		return
+    end
 end
 
 --- @param path string
@@ -95,16 +105,13 @@ local function onInfoGetText(e)
 	local info = e.info
 
 	if (config.greetingsOnly) and not (info.type == tes3.dialogueType.greeting) then return end
-
-	local actor = info.actor
-
-	if actor then
-
-		local actorPath = getCreatureActorPath(info.id, info.actor.id)
+	tes3ui.logToConsole("VoV: Dialogue item requested, checking if actor is valid.")
+	if vovActor then
+		tes3ui.logToConsole("VoV: Actor is valid, searching for appropriate voice line.")
+		local actorPath = getCreatureActorPath(info.id, vovActor.id)
 		local path = getCreaturePath(info.id)
-		local npc = info.actor.reference.object
-
-		if actor.objectType == tes3.objectType.npc then
+		local npc = vovActor.reference.object
+		if vovActor.objectType == tes3.objectType.npc then
 			local race = npc.race.id:lower()
 			local sex = getActorSex(npc.female)
 			local faction = npc.faction
@@ -112,23 +119,29 @@ local function onInfoGetText(e)
 				local facid = faction.id
 				local prank = faction.playerRank
 				if prank >= -1 then
-					actorPath = getActorFactionPath(race, sex, info.id, info.actor.id, facid, prank)
+					actorPath = getActorFactionPath(race, sex, info.id, vovActor.id, facid, prank)
 					path = getPath(race, sex, info.id, facid, prank)
 				end
 			end
 
 			if isPathValid(actorPath) == false then
-				actorPath = getActorPath(race, sex, info.id, info.actor.id)
+				actorPath = getActorPath(race, sex, info.id, vovActor.id)
 			end
 			if isPathValid(path) == false then
 				path = getPath(race, sex, info.id)
 			end
 		end
 
+		tes3ui.logToConsole(string.format("VoV: Checking for Actor specific line: %s", actorPath))
 		if isPathValid(actorPath) then
 			playText(actorPath, npc)
-		elseif isPathValid(path) then
-			playText(path, npc)
+		else
+			tes3ui.logToConsole(string.format("VoV: Checking for generic line: %s", path))
+			if isPathValid(path) then
+				playText(path, npc)
+			else
+				tes3ui.logToConsole("VoV: No voice line found")
+			end
 		end
 	end
 end
@@ -137,6 +150,7 @@ end
 local function init()
 	mwse.log(string.format("AI Voices v%s loaded.", version))
 	event.register(tes3.event.infoGetText, onInfoGetText)
+	event.register(tes3.event.activate, onActivate)
 	event.register(tes3.event["uiActivated"], onDialogActivated, {filter = "MenuDialog"})
 end
 
