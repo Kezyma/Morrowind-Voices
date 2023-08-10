@@ -10,6 +10,7 @@ local function onDialogActivated(e)
 		function()
 			tes3.removeSound { reference = ref, sound = nil }
 			vovActor = nil
+			vovActorInstance = nil
 		end
 	)
 end
@@ -21,6 +22,7 @@ local function onActivate(e)
     end
     if (e.target.object.objectType == tes3.objectType.npc) then
 		vovActor = e.target.baseObject
+		vovActorInstance = e.target.object
 		tes3ui.logToConsole(string.format("VoV: Current actor is %s", vovActor.id))
 		return
     end
@@ -110,7 +112,7 @@ local function onInfoGetText(e)
 		tes3ui.logToConsole("VoV: Actor is valid, searching for appropriate voice line.")
 		local actorPath = getCreatureActorPath(info.id, vovActor.id)
 		local path = getCreaturePath(info.id)
-		local npc = vovActor.reference.object
+		local npc = vovActorInstance.reference.object
 		if vovActor.objectType == tes3.objectType.npc then
 			local race = npc.race.id:lower()
 			local sex = getActorSex(npc.female)
