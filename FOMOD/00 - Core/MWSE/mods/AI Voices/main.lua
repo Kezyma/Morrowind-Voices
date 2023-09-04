@@ -112,6 +112,7 @@ local function onInfoGetText(e)
 		tes3ui.logToConsole("VoV: Actor is valid, searching for appropriate voice line.")
 		local actorPath = getCreatureActorPath(info.id, vovActor.id)
 		local path = getCreaturePath(info.id)
+		if not (vovActorInstance) or not (vovActorInstance.reference) then return end
 		local npc = vovActorInstance.reference.object
 		if vovActor.objectType == tes3.objectType.npc then
 			local race = npc.race.id:lower()
