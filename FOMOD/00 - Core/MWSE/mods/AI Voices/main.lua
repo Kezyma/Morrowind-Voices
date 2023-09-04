@@ -20,7 +20,7 @@ local function onActivate(e)
     if (e.activator ~= tes3.player) then
         return
     end
-    if (e.target.object.objectType == tes3.objectType.npc) then
+    if (e.target.object.objectType == tes3.objectType.npc or e.target.object.objectType == tes3.objectType.creature) then
 		vovActor = e.target.baseObject
 		vovActorInstance = e.target.object
 		tes3ui.logToConsole(string.format("VoV: Current actor is %s", vovActor.id))
