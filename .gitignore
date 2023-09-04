@@ -1,6 +1,8 @@
 Tools/LineExtractor/Csv/**
 Tools/LineExtractor/Esp/**
 Tools/LineExtractor/Json/**
+Tools/LineExtractor/Generated/**
+Tools/LineExtractor/GeneratorConfig.json
 Tools/LineExtractor/tes3conv.zip
 Tools/LineExtractor/tes3conv.exe
 Tools/LineGenerator/Sound/**
