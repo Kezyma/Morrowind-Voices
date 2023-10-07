@@ -9,3 +9,4 @@ Tools/LineGenerator/Sound/**
 Tools/LineGenerator/*.csv
 Tools/LineGenerator/*.json
 Tools/Patcher/Data Files/**
+Tools/Patcher/tes3conv.exe
