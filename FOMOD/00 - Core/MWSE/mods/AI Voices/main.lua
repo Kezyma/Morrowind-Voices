@@ -105,7 +105,7 @@ end
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
 	local info = e.info
-
+	if (info.type == tes3.dialogueType.voice or info.type == tes3.dialogueType.journal) then return end
 	if (config.greetingsOnly) and not (info.type == tes3.dialogueType.greeting) then return end
 	tes3ui.logToConsole("VoV: Dialogue item requested, checking if actor is valid.")
 	if vovActor then
