@@ -1,6 +1,7 @@
 local metadata = require("AI Voices.metadata")
 local version = metadata.version
 local config = require("AI Voices.config")
+local basePath = "Vo\\AIV\\"
 
 --- @param e uiActivatedEventData
 local function onDialogActivated(e)
@@ -23,7 +24,6 @@ local function onActivate(e)
     if (e.target.object.objectType == tes3.objectType.npc or e.target.object.objectType == tes3.objectType.creature) then
 		vovActor = e.target.baseObject
 		vovActorInstance = e.target.object
-		tes3ui.logToConsole(string.format("VoV: Current actor is %s", vovActor.id))
 		return
     end
 end
@@ -39,57 +39,6 @@ local function playText(path, npc)
 	}
 end
 
---- @param race string
---- @param sex string
---- @param infoId string
---- @return string
-local function getPath(race, sex, infoId)
-	return string.format("Vo\\AIV\\%s\\%s\\%s.mp3", race, sex, infoId)
-end
-
---- @param race string
---- @param sex string
---- @param infoId string
---- @param facId string
---- @param rank number
---- @return string
-local function getFactionPath(race, sex, infoId, facId, rank)
-	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s\\%s.mp3", race, sex, facId, rank, infoId)
-end
-
---- @param infoId string
---- @return string
-local function getCreaturePath(infoId)
-	return string.format("Vo\\AIV\\creature\\%s.mp3", infoId)
-end
-
---- @param race string
---- @param sex string
---- @param infoId string
---- @param actorId string
---- @return string
-local function getActorPath(race, sex, infoId, actorId)
-	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s.mp3", race, sex, actorId, infoId)
-end
-
---- @param race string
---- @param sex string
---- @param infoId string
---- @param actorId string
---- @param facId string
---- @param rank number
---- @return string
-local function getActorFactionPath(race, sex, infoId, actorId, facId, rank)
-	return string.format("Vo\\AIV\\%s\\%s\\%s\\%s\\%s\\%s.mp3", race, sex, actorId, facId, rank, infoId)
-end
-
---- @param infoId string
---- @param actorId string
---- @return string
-local function getCreatureActorPath(infoId, actorId)
-	return string.format("Vo\\AIV\\creature\\%s\\%s.mp3", actorId, infoId)
-end
-
 --- @param isFemale boolean
 --- @return string
 local function getActorSex(isFemale)
@@ -102,49 +51,91 @@ local function isPathValid(path)
 	return lfs.fileexists("Data Files\\Sound\\" .. path)
 end
 
+local function constructVoicePath(race, sex, infoId, actorId, factionId, factionRank)
+	local path = basePath
+	if (race) then
+		path = path .. "\\" .. race
+	else
+		path = path .. "\\creature"
+	end
+	if (sex) then
+		path = path .. "\\" .. sex
+	end
+	if (actorId) then
+		path = path .. "\\" .. actorId
+	end
+	if (factionId) then
+		path = path .. "\\" .. factionId
+	end
+	if (factionRank and factionRank >= 0) then
+		path = path .. "\\" .. factionRank
+	end
+	if (infoId) then
+		path = path .. "\\" .. infoId .. ".mp3"
+	end
+	return path
+end
+
+local function getVoicePath(race, sex, infoId, actorId, factionId, factionRank)
+	-- Check the most specific path first.
+	local primaryPath = constructVoicePath(race, sex, infoId, actorId, factionId, factionRank)
+	if (isPathValid(primaryPath)) then return primaryPath end
+
+	-- Find every possible fallback path.
+	local secondaryPaths = {
+		constructVoicePath(race, sex, infoId, actorId, factionId, nil),
+		constructVoicePath(race, sex, infoId, actorId, nil, nil),
+		constructVoicePath(race, sex, infoId, nil, factionId, factionRank),
+		constructVoicePath(race, sex, infoId, nil, factionId, nil),
+		constructVoicePath(race, sex, infoId, nil, nil, nil),
+		constructVoicePath(nil, nil,  infoId, actorId, factionId, factionRank),
+		constructVoicePath(nil, nil,  infoId, actorId, factionId, nil),
+		constructVoicePath(nil, nil, infoId, actorId, nil, nil),
+		constructVoicePath(nil, nil,  infoId, nil, factionId, factionRank),
+		constructVoicePath(nil, nil,  infoId, nil, factionId, nil),
+		constructVoicePath(nil, nil, infoId, nil, nil, nil)
+	}
+
+	-- Return the first path in the list that is valid.
+	for ix, path in pairs(secondaryPaths) do
+		if (isPathValid(path)) then
+			return path
+		end
+	end
+
+	-- If there's no line, return the most specific path for logging purposes.
+	return primaryPath
+end
+
 ---@param e infoGetTextEventData
 local function onInfoGetText(e)
 	local info = e.info
 	if (info.type == tes3.dialogueType.voice or info.type == tes3.dialogueType.journal) then return end
 	if (config.greetingsOnly) and not (info.type == tes3.dialogueType.greeting) then return end
-	tes3ui.logToConsole("VoV: Dialogue item requested, checking if actor is valid.")
 	if vovActor then
-		tes3ui.logToConsole("VoV: Actor is valid, searching for appropriate voice line.")
-		local actorPath = getCreatureActorPath(info.id, vovActor.id)
-		local path = getCreaturePath(info.id)
+		local infoId = info.id
+		local actorId = vovActor.id
+		local race = nil
+		local sex = nil
+		local factionId = nil
+		local factionRank = nil
 		if not (vovActorInstance) or not (vovActorInstance.reference) then return end
 		local npc = vovActorInstance.reference.object
 		if vovActor.objectType == tes3.objectType.npc then
-			local race = npc.race.id:lower()
-			local sex = getActorSex(npc.female)
+			race = npc.race.id:lower()
+			sex = getActorSex(npc.female)
 			local faction = npc.faction
 			if faction ~= nil then
-				local facid = faction.id
-				local prank = faction.playerRank
-				if prank >= -1 then
-					actorPath = getActorFactionPath(race, sex, info.id, vovActor.id, facid, prank)
-					path = getPath(race, sex, info.id, facid, prank)
-				end
-			end
-
-			if isPathValid(actorPath) == false then
-				actorPath = getActorPath(race, sex, info.id, vovActor.id)
-			end
-			if isPathValid(path) == false then
-				path = getPath(race, sex, info.id)
+				factionId = faction.id
+				factionRank = faction.playerRank
 			end
 		end
-
-		tes3ui.logToConsole(string.format("VoV: Checking for Actor specific line: %s", actorPath))
-		if isPathValid(actorPath) then
-			playText(actorPath, npc)
+		local voicePath = getVoicePath(race, sex, infoId, actorId, factionId, factionRank)
+		if isPathValid(voicePath) then
+			tes3ui.logToConsole(string.format("VoV: Playing Line at %s", voicePath))
+			playText(voicePath, npc)
 		else
-			tes3ui.logToConsole(string.format("VoV: Checking for generic line: %s", path))
-			if isPathValid(path) then
-				playText(path, npc)
-			else
-				tes3ui.logToConsole("VoV: No voice line found")
-			end
+			tes3ui.logToConsole(string.format("VoV: Missing Line at %s", voicePath))
 		end
 	end
 end
@@ -154,7 +145,7 @@ local function init()
 	mwse.log(string.format("AI Voices v%s loaded.", version))
 	event.register(tes3.event.infoGetText, onInfoGetText)
 	event.register(tes3.event.activate, onActivate)
-	event.register(tes3.event["uiActivated"], onDialogActivated, {filter = "MenuDialog"})
+	event.register(tes3.event.uiActivated, onDialogActivated, {filter = "MenuDialog"})
 end
 
 event.register(tes3.event.initialized, init)
