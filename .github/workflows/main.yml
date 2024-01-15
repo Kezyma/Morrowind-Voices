@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ARCHIVE_NAME: AI_Voices_${{github.ref_name}}
+      ARCHIVE_NAME: Voices_of_Vvardenfell_${{github.ref_name}}
     steps:
 
       - name: Checkout Code
