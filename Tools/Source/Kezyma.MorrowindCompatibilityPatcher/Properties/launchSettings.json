@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Kezyma.MorrowindCompatibilityPatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Patch for Purists.esm\" \"PFP VoV Patch\"",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51303;http://localhost:51304"
+    }
+  }
+}

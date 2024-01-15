@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Kezyma.MorrowindLineExtractor": {
+      "commandName": "Project",
+      "commandLineArgs": "generate csv:PfP_wip.csv",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51293;http://localhost:51294"
+    }
+  }
+}

@@ -1,1 +1,1 @@
-Kezyma.MorrowindLineExtractor.exe generate csv:Morrowind.csv existingonly organise
+Kezyma.MorrowindLineExtractor.exe generate csv:PfP.csv existingonly organise

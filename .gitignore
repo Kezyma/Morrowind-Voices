@@ -10,3 +10,6 @@ Tools/LineGenerator/*.csv
 Tools/LineGenerator/*.json
 Tools/Patcher/Data Files/**
 Tools/Patcher/tes3conv.exe
+Tools/Source/.vs/
+Tools/Source/*/bin
+Tools/Source/*/obj
