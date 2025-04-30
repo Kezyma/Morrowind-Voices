@@ -1,2 +1,2 @@
-Kezyma.MorrowindLineExtractor.exe generate csv:PfP_wip.csv
+Kezyma.MorrowindLineExtractor.exe generate csv:Morrowind.csv
 PAUSE
