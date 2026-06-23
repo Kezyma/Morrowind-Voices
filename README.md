@@ -1,4 +1,4 @@
-![Voices of Vvardenfell](img/Header.png)
+![Voices of Vvardenfell](img/header.png)
 
 Voices of Vvardenfell is a project to fully voice Morrowind using [ElevenAI](https://beta.elevenlabs.io/) and [MWSE](https://github.com/MWSE/MWSE). Easily extensible to add compatibility with other mods with no knowledge of scripting or the CS and no additional esp.
 
